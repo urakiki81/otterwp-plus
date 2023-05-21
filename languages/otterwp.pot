@@ -1,0 +1,1230 @@
+# Copyright (C) 2023 otterwp
+# This file is distributed under the same license as the otterwp package.
+msgid ""
+msgstr ""
+"Project-Id-Version: otterwp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-manage-fonts.php:30, admin/class-manage-fonts.php:31, packaged/otterwp/admin/class-manage-fonts.php:30, packaged/otterwp/admin/class-manage-fonts.php:31, packaged/otterwp 2/admin/class-manage-fonts.php:30, packaged/otterwp 2/admin/class-manage-fonts.php:31
+msgctxt "UI String"
+msgid "Manage theme fonts"
+msgstr ""
+
+#: admin/class-manage-fonts.php:34, admin/class-manage-fonts.php:35, packaged/otterwp/admin/class-manage-fonts.php:34, packaged/otterwp/admin/class-manage-fonts.php:35, packaged/otterwp 2/admin/class-manage-fonts.php:34, packaged/otterwp 2/admin/class-manage-fonts.php:35
+msgctxt "UI String"
+msgid "Embed Google font in current Theme"
+msgstr ""
+
+#: admin/class-manage-fonts.php:38, admin/class-manage-fonts.php:39, packaged/otterwp/admin/class-manage-fonts.php:38, packaged/otterwp/admin/class-manage-fonts.php:39, packaged/otterwp 2/admin/class-manage-fonts.php:38, packaged/otterwp 2/admin/class-manage-fonts.php:39
+msgctxt "UI String"
+msgid "Embed local font in current Theme"
+msgstr ""
+
+#: admin/class-manage-fonts.php:203, packaged/otterwp/admin/class-manage-fonts.php:203, packaged/otterwp 2/admin/class-manage-fonts.php:203
+msgid "Add Google fonts assets and font face definitions to your current active theme (%1$s)"
+msgstr ""
+
+#: admin/class-manage-fonts.php:209, packaged/otterwp/admin/class-manage-fonts.php:209, packaged/otterwp 2/admin/class-manage-fonts.php:209
+msgid "Select the font variants you want to include:"
+msgstr ""
+
+#: admin/class-manage-fonts.php:224, packaged/otterwp/admin/class-manage-fonts.php:224, packaged/otterwp 2/admin/class-manage-fonts.php:224
+msgid "Add google fonts to your theme"
+msgstr ""
+
+#: admin/class-manage-fonts.php:455, packaged/otterwp/admin/class-manage-fonts.php:455, packaged/otterwp 2/admin/class-manage-fonts.php:455
+msgid "Manage Fonts"
+msgstr ""
+
+#: admin/class-woo-amc-admin.php:202, packaged/otterwp/admin/class-woo-amc-admin.php:202, packaged/otterwp 2/admin/class-woo-amc-admin.php:202
+msgid "Theme settings"
+msgstr ""
+
+#: admin/class-woo-amc-admin.php:203, packaged/otterwp/admin/class-woo-amc-admin.php:203, packaged/otterwp 2/admin/class-woo-amc-admin.php:203
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/class-woo-amc-admin.php:204, inc/patterns/pricing-table-three.php:41, inc/patterns/pricing-table-three.php:93, inc/patterns/pricing-table-three.php:145, packaged/otterwp/admin/class-woo-amc-admin.php:204, packaged/otterwp 2/admin/class-woo-amc-admin.php:204, packaged/otterwp/inc/patterns/pricing-table-three.php:41, packaged/otterwp/inc/patterns/pricing-table-three.php:93, packaged/otterwp/inc/patterns/pricing-table-three.php:145, packaged/otterwp 2/inc/patterns/pricing-table-three.php:41, packaged/otterwp 2/inc/patterns/pricing-table-three.php:93, packaged/otterwp 2/inc/patterns/pricing-table-three.php:145
+msgid "Support"
+msgstr ""
+
+#: admin/class-woo-amc-admin.php:221, packaged/otterwp/admin/class-woo-amc-admin.php:221, packaged/otterwp 2/admin/class-woo-amc-admin.php:221
+msgid "Need help? We're here for you!"
+msgstr ""
+
+#: admin/class-woo-amc-admin.php:222, packaged/otterwp/admin/class-woo-amc-admin.php:222, packaged/otterwp 2/admin/class-woo-amc-admin.php:222
+msgid "Have a question? Hit a bug? Having a idea for something you would like to see? Get the help you need"
+msgstr ""
+
+#: admin/class-woo-amc-admin.php:224, packaged/otterwp/admin/class-woo-amc-admin.php:224, packaged/otterwp 2/admin/class-woo-amc-admin.php:224
+msgid "Get Support"
+msgstr ""
+
+#: inc/block-patterns.php:17, packaged/otterwp/inc/block-patterns.php:17, packaged/otterwp 2/inc/block-patterns.php:17
+msgid "Featured"
+msgstr ""
+
+#: inc/block-patterns.php:18, packaged/otterwp/inc/block-patterns.php:18, packaged/otterwp 2/inc/block-patterns.php:18
+msgid "Footers"
+msgstr ""
+
+#: inc/block-patterns.php:19, packaged/otterwp/inc/block-patterns.php:19, packaged/otterwp 2/inc/block-patterns.php:19
+msgid "Headers"
+msgstr ""
+
+#: inc/block-patterns.php:20, packaged/otterwp/inc/block-patterns.php:20, packaged/otterwp 2/inc/block-patterns.php:20
+msgid "Query"
+msgstr ""
+
+#: inc/block-patterns.php:21, packaged/otterwp/inc/block-patterns.php:21, packaged/otterwp 2/inc/block-patterns.php:21
+msgid "Pages"
+msgstr ""
+
+#: inc/block-patterns.php:22, packaged/otterwp/inc/block-patterns.php:22, packaged/otterwp 2/inc/block-patterns.php:22
+msgid "Testimonials"
+msgstr ""
+
+#: inc/block-patterns.php:23, packaged/otterwp/inc/block-patterns.php:23, packaged/otterwp 2/inc/block-patterns.php:23
+msgid "Team Section"
+msgstr ""
+
+#: inc/block-patterns.php:24, packaged/otterwp/inc/block-patterns.php:24, packaged/otterwp 2/inc/block-patterns.php:24
+msgid "Price tables"
+msgstr ""
+
+#: inc/block-patterns.php:25, packaged/otterwp/inc/block-patterns.php:25, packaged/otterwp 2/inc/block-patterns.php:25
+msgid "Contact Section"
+msgstr ""
+
+#: lib/block-styles.php:17, lib/block-styles.php:43, lib/block-styles.php:172, lib/block-styles.php:193, packaged/otterwp/lib/block-styles.php:17, packaged/otterwp/lib/block-styles.php:43, packaged/otterwp/lib/block-styles.php:172, packaged/otterwp/lib/block-styles.php:193, packaged/otterwp 2/lib/block-styles.php:17, packaged/otterwp 2/lib/block-styles.php:43, packaged/otterwp 2/lib/block-styles.php:172, packaged/otterwp 2/lib/block-styles.php:193
+msgid "Font One"
+msgstr ""
+
+#: lib/block-styles.php:22, lib/block-styles.php:223, lib/block-styles.php:227, packaged/otterwp/lib/block-styles.php:22, packaged/otterwp/lib/block-styles.php:223, packaged/otterwp/lib/block-styles.php:227, packaged/otterwp 2/lib/block-styles.php:22, packaged/otterwp 2/lib/block-styles.php:223, packaged/otterwp 2/lib/block-styles.php:227
+msgid "Blob"
+msgstr ""
+
+#: lib/block-styles.php:26, lib/block-styles.php:47, lib/block-styles.php:176, lib/block-styles.php:197, packaged/otterwp/lib/block-styles.php:26, packaged/otterwp/lib/block-styles.php:47, packaged/otterwp/lib/block-styles.php:176, packaged/otterwp/lib/block-styles.php:197, packaged/otterwp 2/lib/block-styles.php:26, packaged/otterwp 2/lib/block-styles.php:47, packaged/otterwp 2/lib/block-styles.php:176, packaged/otterwp 2/lib/block-styles.php:197
+msgid "Font Two"
+msgstr ""
+
+#: lib/block-styles.php:30, lib/block-styles.php:51, lib/block-styles.php:180, lib/block-styles.php:201, packaged/otterwp/lib/block-styles.php:30, packaged/otterwp/lib/block-styles.php:51, packaged/otterwp/lib/block-styles.php:180, packaged/otterwp/lib/block-styles.php:201, packaged/otterwp 2/lib/block-styles.php:30, packaged/otterwp 2/lib/block-styles.php:51, packaged/otterwp 2/lib/block-styles.php:180, packaged/otterwp 2/lib/block-styles.php:201
+msgid "Font Three"
+msgstr ""
+
+#: lib/block-styles.php:34, lib/block-styles.php:55, lib/block-styles.php:184, lib/block-styles.php:205, packaged/otterwp/lib/block-styles.php:34, packaged/otterwp/lib/block-styles.php:55, packaged/otterwp/lib/block-styles.php:184, packaged/otterwp/lib/block-styles.php:205, packaged/otterwp 2/lib/block-styles.php:34, packaged/otterwp 2/lib/block-styles.php:55, packaged/otterwp 2/lib/block-styles.php:184, packaged/otterwp 2/lib/block-styles.php:205
+msgid "Font Four"
+msgstr ""
+
+#: lib/block-styles.php:38, lib/block-styles.php:59, lib/block-styles.php:188, lib/block-styles.php:209, packaged/otterwp/lib/block-styles.php:38, packaged/otterwp/lib/block-styles.php:59, packaged/otterwp/lib/block-styles.php:188, packaged/otterwp/lib/block-styles.php:209, packaged/otterwp 2/lib/block-styles.php:38, packaged/otterwp 2/lib/block-styles.php:59, packaged/otterwp 2/lib/block-styles.php:188, packaged/otterwp 2/lib/block-styles.php:209
+msgid "Font Five"
+msgstr ""
+
+#: lib/block-styles.php:69, lib/block-styles.php:97, packaged/otterwp/lib/block-styles.php:69, packaged/otterwp/lib/block-styles.php:97, packaged/otterwp 2/lib/block-styles.php:69, packaged/otterwp 2/lib/block-styles.php:97
+msgid "Colored bottom border"
+msgstr ""
+
+#: lib/block-styles.php:73, packaged/otterwp/lib/block-styles.php:73, packaged/otterwp 2/lib/block-styles.php:73
+msgid "Underline"
+msgstr ""
+
+#: lib/block-styles.php:77, lib/block-styles.php:101, packaged/otterwp/lib/block-styles.php:77, packaged/otterwp/lib/block-styles.php:101, packaged/otterwp 2/lib/block-styles.php:77, packaged/otterwp 2/lib/block-styles.php:101
+msgid "Underline On Hover"
+msgstr ""
+
+#: lib/block-styles.php:81, lib/block-styles.php:93, packaged/otterwp/lib/block-styles.php:81, packaged/otterwp/lib/block-styles.php:93, packaged/otterwp 2/lib/block-styles.php:81, packaged/otterwp 2/lib/block-styles.php:93
+msgid "Overline On Hover"
+msgstr ""
+
+#: lib/block-styles.php:85, packaged/otterwp/lib/block-styles.php:85, packaged/otterwp 2/lib/block-styles.php:85
+msgid "Arrow Button"
+msgstr ""
+
+#: lib/block-styles.php:89, packaged/otterwp/lib/block-styles.php:89, packaged/otterwp 2/lib/block-styles.php:89
+msgid "Shadow Button"
+msgstr ""
+
+#: lib/block-styles.php:112, lib/block-styles.php:125, lib/block-styles.php:134, lib/block-styles.php:143, lib/block-styles.php:152, packaged/otterwp/lib/block-styles.php:112, packaged/otterwp/lib/block-styles.php:125, packaged/otterwp/lib/block-styles.php:134, packaged/otterwp/lib/block-styles.php:143, packaged/otterwp/lib/block-styles.php:152, packaged/otterwp 2/lib/block-styles.php:112, packaged/otterwp 2/lib/block-styles.php:125, packaged/otterwp 2/lib/block-styles.php:134, packaged/otterwp 2/lib/block-styles.php:143, packaged/otterwp 2/lib/block-styles.php:152
+msgid "Center buttom"
+msgstr ""
+
+#: lib/block-styles.php:116, lib/block-styles.php:129, lib/block-styles.php:138, lib/block-styles.php:147, lib/block-styles.php:156, packaged/otterwp/lib/block-styles.php:116, packaged/otterwp/lib/block-styles.php:129, packaged/otterwp/lib/block-styles.php:138, packaged/otterwp/lib/block-styles.php:147, packaged/otterwp/lib/block-styles.php:156, packaged/otterwp 2/lib/block-styles.php:116, packaged/otterwp 2/lib/block-styles.php:129, packaged/otterwp 2/lib/block-styles.php:138, packaged/otterwp 2/lib/block-styles.php:147, packaged/otterwp 2/lib/block-styles.php:156
+msgid "all Image"
+msgstr ""
+
+#: lib/block-styles.php:120, packaged/otterwp/lib/block-styles.php:120, packaged/otterwp 2/lib/block-styles.php:120
+msgid "Snap too"
+msgstr ""
+
+#: lib/block-styles.php:214, packaged/otterwp/lib/block-styles.php:214, packaged/otterwp 2/lib/block-styles.php:214
+msgid "Shadow"
+msgstr ""
+
+#: lib/block-styles.php:219, packaged/otterwp/lib/block-styles.php:219, packaged/otterwp 2/lib/block-styles.php:219
+msgid "Image zoom on hover"
+msgstr ""
+
+#: lib/block-styles.php:231, packaged/otterwp/lib/block-styles.php:231, packaged/otterwp 2/lib/block-styles.php:231
+msgid "Image Slice-left"
+msgstr ""
+
+#: lib/block-styles.php:235, packaged/otterwp/lib/block-styles.php:235, packaged/otterwp 2/lib/block-styles.php:235
+msgid "Image Slice-right"
+msgstr ""
+
+#: patterns/hidden-404.php:13, patterns/hidden-404.php:13, packaged/otterwp/patterns/hidden-404.php:13, packaged/otterwp/patterns/hidden-404.php:13, packaged/otterwp 2/patterns/hidden-404.php:13, packaged/otterwp 2/patterns/hidden-404.php:13
+msgid "4"
+msgstr ""
+
+#: patterns/hidden-404.php:13, packaged/otterwp/patterns/hidden-404.php:13, packaged/otterwp 2/patterns/hidden-404.php:13
+msgid "0"
+msgstr ""
+
+#: patterns/hidden-404.php:21, inc/patterns/hidden-404.php:12, packaged/otterwp/patterns/hidden-404.php:21, packaged/otterwp 2/patterns/hidden-404.php:21, packaged/otterwp/inc/patterns/hidden-404.php:12, packaged/otterwp 2/inc/patterns/hidden-404.php:12
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: template-parts/ajax-single.php:55, packaged/otterwp/template-parts/ajax-single.php:55, packaged/otterwp 2/template-parts/ajax-single.php:55
+msgid "Sipe Down To Close"
+msgstr ""
+
+#: template-parts/ajax-single.php:72, template-parts/ajax-single.php:267, packaged/otterwp/template-parts/ajax-single.php:72, packaged/otterwp/template-parts/ajax-single.php:267, packaged/otterwp 2/template-parts/ajax-single.php:72, packaged/otterwp 2/template-parts/ajax-single.php:267
+msgid "Reviews"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#. translators: 1: reviews count 2: product name
+#. translators: 1: reviews count 2: product name
+#: template-parts/ajax-single.php:97, packaged/otterwp/template-parts/ajax-single.php:97, packaged/otterwp 2/template-parts/ajax-single.php:97
+msgid "Leave a review for %2$s"
+msgid_plural "Leave a reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/ajax-single.php:128, template-parts/ajax-single.php:274, packaged/otterwp/template-parts/ajax-single.php:128, packaged/otterwp/template-parts/ajax-single.php:274, packaged/otterwp 2/template-parts/ajax-single.php:128, packaged/otterwp 2/template-parts/ajax-single.php:274
+msgid "There are no reviews yet."
+msgstr ""
+
+#: template-parts/ajax-single.php:220, packaged/otterwp/template-parts/ajax-single.php:220, packaged/otterwp 2/template-parts/ajax-single.php:220
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: template-parts/ajax-single.php:144, packaged/otterwp/template-parts/ajax-single.php:144, packaged/otterwp 2/template-parts/ajax-single.php:144
+msgid "Poor"
+msgstr ""
+
+#: template-parts/ajax-single.php:145, packaged/otterwp/template-parts/ajax-single.php:145, packaged/otterwp 2/template-parts/ajax-single.php:145
+msgid "Bad"
+msgstr ""
+
+#: template-parts/ajax-single.php:146, template-parts/ajax-single.php:207, packaged/otterwp/template-parts/ajax-single.php:146, packaged/otterwp/template-parts/ajax-single.php:207, packaged/otterwp 2/template-parts/ajax-single.php:146, packaged/otterwp 2/template-parts/ajax-single.php:207
+msgid "Average"
+msgstr ""
+
+#: template-parts/ajax-single.php:147, packaged/otterwp/template-parts/ajax-single.php:147, packaged/otterwp 2/template-parts/ajax-single.php:147
+msgid "Nice"
+msgstr ""
+
+#: template-parts/ajax-single.php:148, packaged/otterwp/template-parts/ajax-single.php:148, packaged/otterwp 2/template-parts/ajax-single.php:148
+msgid "Very good qality"
+msgstr ""
+
+#: template-parts/ajax-single.php:156, packaged/otterwp/template-parts/ajax-single.php:156, packaged/otterwp 2/template-parts/ajax-single.php:156
+msgid "Leave a Review to %s"
+msgstr ""
+
+#: template-parts/ajax-single.php:160, packaged/otterwp/template-parts/ajax-single.php:160, packaged/otterwp 2/template-parts/ajax-single.php:160
+msgid "Submit"
+msgstr ""
+
+#: template-parts/ajax-single.php:168, packaged/otterwp/template-parts/ajax-single.php:168, packaged/otterwp 2/template-parts/ajax-single.php:168
+msgid "Name"
+msgstr ""
+
+#: template-parts/ajax-single.php:174, inc/patterns/contact-one.php:36, inc/patterns/contact-two.php:47, packaged/otterwp/template-parts/ajax-single.php:174, packaged/otterwp 2/template-parts/ajax-single.php:174, packaged/otterwp/inc/patterns/contact-one.php:36, packaged/otterwp/inc/patterns/contact-two.php:47, packaged/otterwp 2/inc/patterns/contact-one.php:36, packaged/otterwp 2/inc/patterns/contact-two.php:47
+msgid "Email"
+msgstr ""
+
+#: template-parts/ajax-single.php:199, packaged/otterwp/template-parts/ajax-single.php:199, packaged/otterwp 2/template-parts/ajax-single.php:199
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: template-parts/ajax-single.php:203, packaged/otterwp/template-parts/ajax-single.php:203, packaged/otterwp 2/template-parts/ajax-single.php:203
+msgid "Your rating"
+msgstr ""
+
+#: template-parts/ajax-single.php:204, packaged/otterwp/template-parts/ajax-single.php:204, packaged/otterwp 2/template-parts/ajax-single.php:204
+msgid "Rate&hellip;"
+msgstr ""
+
+#: template-parts/ajax-single.php:205, packaged/otterwp/template-parts/ajax-single.php:205, packaged/otterwp 2/template-parts/ajax-single.php:205
+msgid "Perfect"
+msgstr ""
+
+#: template-parts/ajax-single.php:206, packaged/otterwp/template-parts/ajax-single.php:206, packaged/otterwp 2/template-parts/ajax-single.php:206
+msgid "Good"
+msgstr ""
+
+#: template-parts/ajax-single.php:208, packaged/otterwp/template-parts/ajax-single.php:208, packaged/otterwp 2/template-parts/ajax-single.php:208
+msgid "Not that bad"
+msgstr ""
+
+#: template-parts/ajax-single.php:209, packaged/otterwp/template-parts/ajax-single.php:209, packaged/otterwp 2/template-parts/ajax-single.php:209
+msgid "Very poor"
+msgstr ""
+
+#: template-parts/ajax-single.php:213, packaged/otterwp/template-parts/ajax-single.php:213, packaged/otterwp 2/template-parts/ajax-single.php:213
+msgid "Your review"
+msgstr ""
+
+#: template-parts/ajax-single.php:226, template-parts/ajax-single.php:291, packaged/otterwp/template-parts/ajax-single.php:226, packaged/otterwp/template-parts/ajax-single.php:291, packaged/otterwp 2/template-parts/ajax-single.php:226, packaged/otterwp 2/template-parts/ajax-single.php:291
+msgid "Leave Shop Page For "
+msgstr ""
+
+#: template-parts/ajax-single.php:256, packaged/otterwp/template-parts/ajax-single.php:256, packaged/otterwp 2/template-parts/ajax-single.php:256
+msgid "Description"
+msgstr ""
+
+#: template-parts/ajax-single.php:275, packaged/otterwp/template-parts/ajax-single.php:275, packaged/otterwp 2/template-parts/ajax-single.php:275
+msgid "Be the frist to review this product."
+msgstr ""
+
+#: inc/patterns/contact-one.php:6, packaged/otterwp/inc/patterns/contact-one.php:6, packaged/otterwp 2/inc/patterns/contact-one.php:6
+msgid "Contact One"
+msgstr ""
+
+#: inc/patterns/contact-one.php:10, packaged/otterwp/inc/patterns/contact-one.php:10, packaged/otterwp 2/inc/patterns/contact-one.php:10
+msgid "Heading Title"
+msgstr ""
+
+#: inc/patterns/contact-one.php:26, inc/patterns/contact-two.php:39, packaged/otterwp/inc/patterns/contact-one.php:26, packaged/otterwp/inc/patterns/contact-two.php:39, packaged/otterwp 2/inc/patterns/contact-one.php:26, packaged/otterwp 2/inc/patterns/contact-two.php:39
+msgid "Address"
+msgstr ""
+
+#: inc/patterns/contact-one.php:30, inc/patterns/contact-two.php:43, packaged/otterwp/inc/patterns/contact-one.php:30, packaged/otterwp/inc/patterns/contact-two.php:43, packaged/otterwp 2/inc/patterns/contact-one.php:30, packaged/otterwp 2/inc/patterns/contact-two.php:43
+msgid "Address Line"
+msgstr ""
+
+#: inc/patterns/contact-one.php:47, inc/patterns/footer-one.php:32, inc/patterns/footer-one.php:36, inc/patterns/footer-one.php:40, inc/patterns/footer-one.php:44, inc/patterns/footer-one.php:48, inc/patterns/footer-one.php:52, inc/patterns/header-center-image-adaptive.php:45, inc/patterns/header-default.php:52, inc/patterns/header-default.php:56, inc/patterns/header-default.php:62, inc/patterns/header-default.php:66, inc/patterns/otterwp-page-layout-image-and-text.php:13, inc/patterns/page-break-three.php:13, inc/patterns/page-break-three.php:27, inc/patterns/page-break-three.php:41, inc/patterns/page-break-two.php:26, inc/patterns/page-break-two.php:42, inc/patterns/page-break-two.php:58, inc/patterns/page-layout-image-and-image.php:12, inc/patterns/page-layout-image-and-image.php:42, inc/patterns/page-layout-image-and-text.php:15, inc/patterns/team-one.php:14, inc/patterns/team-one.php:40, inc/patterns/team-one.php:66, inc/patterns/team-three.php:60, inc/patterns/team-three.php:78, inc/patterns/team-three.php:106, inc/patterns/testimonial-one.php:32, inc/patterns/testimonial-one.php:64, inc/patterns/testimonial-one.php:96, inc/patterns/testimonial-two.php:32, inc/patterns/testimonial-two.php:64, inc/patterns/testimonial-two.php:96, packaged/otterwp/inc/patterns/contact-one.php:47, packaged/otterwp/inc/patterns/footer-one.php:32, packaged/otterwp/inc/patterns/footer-one.php:36, packaged/otterwp/inc/patterns/footer-one.php:40, packaged/otterwp/inc/patterns/footer-one.php:44, packaged/otterwp/inc/patterns/footer-one.php:48, packaged/otterwp/inc/patterns/footer-one.php:52, packaged/otterwp/inc/patterns/header-center-image-adaptive.php:45, packaged/otterwp/inc/patterns/header-default.php:52, packaged/otterwp/inc/patterns/header-default.php:56, packaged/otterwp/inc/patterns/header-default.php:62, packaged/otterwp/inc/patterns/header-default.php:66, packaged/otterwp/inc/patterns/otterwp-page-layout-image-and-text.php:13, packaged/otterwp/inc/patterns/page-break-three.php:13, packaged/otterwp/inc/patterns/page-break-three.php:27, packaged/otterwp/inc/patterns/page-break-three.php:41, packaged/otterwp/inc/patterns/page-break-two.php:26, packaged/otterwp/inc/patterns/page-break-two.php:42, packaged/otterwp/inc/patterns/page-break-two.php:58, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:12, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:42, packaged/otterwp/inc/patterns/page-layout-image-and-text.php:15, packaged/otterwp/inc/patterns/team-one.php:14, packaged/otterwp/inc/patterns/team-one.php:40, packaged/otterwp/inc/patterns/team-one.php:66, packaged/otterwp/inc/patterns/team-three.php:60, packaged/otterwp/inc/patterns/team-three.php:78, packaged/otterwp/inc/patterns/team-three.php:106, packaged/otterwp/inc/patterns/testimonial-one.php:32, packaged/otterwp/inc/patterns/testimonial-one.php:64, packaged/otterwp/inc/patterns/testimonial-one.php:96, packaged/otterwp/inc/patterns/testimonial-two.php:32, packaged/otterwp/inc/patterns/testimonial-two.php:64, packaged/otterwp/inc/patterns/testimonial-two.php:96, packaged/otterwp 2/inc/patterns/contact-one.php:47, packaged/otterwp 2/inc/patterns/footer-one.php:32, packaged/otterwp 2/inc/patterns/footer-one.php:36, packaged/otterwp 2/inc/patterns/footer-one.php:40, packaged/otterwp 2/inc/patterns/footer-one.php:44, packaged/otterwp 2/inc/patterns/footer-one.php:48, packaged/otterwp 2/inc/patterns/footer-one.php:52, packaged/otterwp 2/inc/patterns/header-center-image-adaptive.php:45, packaged/otterwp 2/inc/patterns/header-default.php:52, packaged/otterwp 2/inc/patterns/header-default.php:56, packaged/otterwp 2/inc/patterns/header-default.php:62, packaged/otterwp 2/inc/patterns/header-default.php:66, packaged/otterwp 2/inc/patterns/otterwp-page-layout-image-and-text.php:13, packaged/otterwp 2/inc/patterns/page-break-three.php:13, packaged/otterwp 2/inc/patterns/page-break-three.php:27, packaged/otterwp 2/inc/patterns/page-break-three.php:41, packaged/otterwp 2/inc/patterns/page-break-two.php:26, packaged/otterwp 2/inc/patterns/page-break-two.php:42, packaged/otterwp 2/inc/patterns/page-break-two.php:58, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:12, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:42, packaged/otterwp 2/inc/patterns/page-layout-image-and-text.php:15, packaged/otterwp 2/inc/patterns/team-one.php:14, packaged/otterwp 2/inc/patterns/team-one.php:40, packaged/otterwp 2/inc/patterns/team-one.php:66, packaged/otterwp 2/inc/patterns/team-three.php:60, packaged/otterwp 2/inc/patterns/team-three.php:78, packaged/otterwp 2/inc/patterns/team-three.php:106, packaged/otterwp 2/inc/patterns/testimonial-one.php:32, packaged/otterwp 2/inc/patterns/testimonial-one.php:64, packaged/otterwp 2/inc/patterns/testimonial-one.php:96, packaged/otterwp 2/inc/patterns/testimonial-two.php:32, packaged/otterwp 2/inc/patterns/testimonial-two.php:64, packaged/otterwp 2/inc/patterns/testimonial-two.php:96
+msgctxt "Short for to be determined"
+msgid "TBD"
+msgstr ""
+
+#: inc/patterns/contact-two.php:6, packaged/otterwp/inc/patterns/contact-two.php:6, packaged/otterwp 2/inc/patterns/contact-two.php:6
+msgid "Contact Two"
+msgstr ""
+
+#: inc/patterns/contact-two.php:14, packaged/otterwp/inc/patterns/contact-two.php:14, packaged/otterwp 2/inc/patterns/contact-two.php:14
+msgid "Contact Us"
+msgstr ""
+
+#: inc/patterns/contact-two.php:31, packaged/otterwp/inc/patterns/contact-two.php:31, packaged/otterwp 2/inc/patterns/contact-two.php:31
+msgid "Tel"
+msgstr ""
+
+#: inc/patterns/footer-about-title-logo.php:6, packaged/otterwp/inc/patterns/footer-about-title-logo.php:6, packaged/otterwp 2/inc/patterns/footer-about-title-logo.php:6
+msgid "Footer with text, title, and logo"
+msgstr ""
+
+#: inc/patterns/footer-about-title-logo.php:13, inc/patterns/footer-blog.php:13, packaged/otterwp/inc/patterns/footer-about-title-logo.php:13, packaged/otterwp/inc/patterns/footer-blog.php:13, packaged/otterwp 2/inc/patterns/footer-about-title-logo.php:13, packaged/otterwp 2/inc/patterns/footer-blog.php:13
+msgid "About us"
+msgstr ""
+
+#: inc/patterns/footer-blog.php:6, packaged/otterwp/inc/patterns/footer-blog.php:6, packaged/otterwp 2/inc/patterns/footer-blog.php:6
+msgid "Blog footer"
+msgstr ""
+
+#: inc/patterns/footer-blog.php:23, inc/patterns/general-featured-posts.php:10, packaged/otterwp/inc/patterns/footer-blog.php:23, packaged/otterwp/inc/patterns/general-featured-posts.php:10, packaged/otterwp 2/inc/patterns/footer-blog.php:23, packaged/otterwp 2/inc/patterns/general-featured-posts.php:10
+msgid "Latest posts"
+msgstr ""
+
+#: inc/patterns/footer-blog.php:31, inc/patterns/page-sidebar-blog-posts-right.php:74, packaged/otterwp/inc/patterns/footer-blog.php:31, packaged/otterwp/inc/patterns/page-sidebar-blog-posts-right.php:74, packaged/otterwp 2/inc/patterns/footer-blog.php:31, packaged/otterwp 2/inc/patterns/page-sidebar-blog-posts-right.php:74
+msgid "Categories"
+msgstr ""
+
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: WordPress link.
+#. translators: WordPress link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: WordPress link.
+#. translators: WordPress link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: Otterwp link.
+#. translators: WordPress link.
+#. translators: WordPress link.
+#: inc/patterns/footer-blog.php:49, inc/patterns/footer-dark.php:17, inc/patterns/footer-default.php:17, inc/patterns/footer-logo.php:17, inc/patterns/footer-navigation.php:19, inc/patterns/footer-query-images-title-citation.php:34, packaged/otterwp/inc/patterns/footer-blog.php:49, packaged/otterwp/inc/patterns/footer-dark.php:17, packaged/otterwp/inc/patterns/footer-default.php:17, packaged/otterwp/inc/patterns/footer-logo.php:17, packaged/otterwp/inc/patterns/footer-navigation.php:19, packaged/otterwp/inc/patterns/footer-query-images-title-citation.php:34, packaged/otterwp 2/inc/patterns/footer-blog.php:49, packaged/otterwp 2/inc/patterns/footer-dark.php:17, packaged/otterwp 2/inc/patterns/footer-default.php:17, packaged/otterwp 2/inc/patterns/footer-logo.php:17, packaged/otterwp 2/inc/patterns/footer-navigation.php:19, packaged/otterwp 2/inc/patterns/footer-query-images-title-citation.php:34
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: inc/patterns/footer-blog.php:50, inc/patterns/footer-navigation.php:20, inc/patterns/footer-query-images-title-citation.php:35, packaged/otterwp/inc/patterns/footer-blog.php:50, packaged/otterwp/inc/patterns/footer-navigation.php:20, packaged/otterwp/inc/patterns/footer-query-images-title-citation.php:35, packaged/otterwp 2/inc/patterns/footer-blog.php:50, packaged/otterwp 2/inc/patterns/footer-navigation.php:20, packaged/otterwp 2/inc/patterns/footer-query-images-title-citation.php:35
+msgid "https://wordpress.org"
+msgstr ""
+
+#: inc/patterns/footer-dark.php:6, packaged/otterwp/inc/patterns/footer-dark.php:6, packaged/otterwp 2/inc/patterns/footer-dark.php:6
+msgid "Dark footer with title and citation"
+msgstr ""
+
+#: inc/patterns/footer-dark.php:18, packaged/otterwp/inc/patterns/footer-dark.php:18, packaged/otterwp 2/inc/patterns/footer-dark.php:18
+msgid "https://www.otterwp.io"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6, packaged/otterwp/inc/patterns/footer-default.php:6, packaged/otterwp 2/inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:18, inc/patterns/footer-logo.php:18, packaged/otterwp/inc/patterns/footer-default.php:18, packaged/otterwp/inc/patterns/footer-logo.php:18, packaged/otterwp 2/inc/patterns/footer-default.php:18, packaged/otterwp 2/inc/patterns/footer-logo.php:18
+msgid "https://www.otterwp.io/"
+msgstr ""
+
+#: inc/patterns/footer-logo.php:6, packaged/otterwp/inc/patterns/footer-logo.php:6, packaged/otterwp 2/inc/patterns/footer-logo.php:6
+msgid "Footer with logo and citation"
+msgstr ""
+
+#: inc/patterns/footer-navigation-copyright.php:6, packaged/otterwp/inc/patterns/footer-navigation-copyright.php:6, packaged/otterwp 2/inc/patterns/footer-navigation-copyright.php:6
+msgid "Footer with navigation and copyright"
+msgstr ""
+
+#: inc/patterns/footer-navigation-copyright.php:20, inc/patterns/footer-one.php:80, inc/patterns/footer-two.php:75, packaged/otterwp/inc/patterns/footer-navigation-copyright.php:20, packaged/otterwp/inc/patterns/footer-one.php:80, packaged/otterwp/inc/patterns/footer-two.php:75, packaged/otterwp 2/inc/patterns/footer-navigation-copyright.php:20, packaged/otterwp 2/inc/patterns/footer-one.php:80, packaged/otterwp 2/inc/patterns/footer-two.php:75
+msgid "© Site Title"
+msgstr ""
+
+#: inc/patterns/footer-navigation.php:6, inc/patterns/footer-one.php:6, inc/patterns/footer-two.php:6, packaged/otterwp/inc/patterns/footer-navigation.php:6, packaged/otterwp/inc/patterns/footer-one.php:6, packaged/otterwp/inc/patterns/footer-two.php:6, packaged/otterwp 2/inc/patterns/footer-navigation.php:6, packaged/otterwp 2/inc/patterns/footer-one.php:6, packaged/otterwp 2/inc/patterns/footer-two.php:6
+msgid "Footer with navigation and citation"
+msgstr ""
+
+#: inc/patterns/footer-one.php:13, packaged/otterwp/inc/patterns/footer-one.php:13, packaged/otterwp 2/inc/patterns/footer-one.php:13
+msgid "About Us"
+msgstr ""
+
+#: inc/patterns/footer-query-images-title-citation.php:6, packaged/otterwp/inc/patterns/footer-query-images-title-citation.php:6, packaged/otterwp 2/inc/patterns/footer-query-images-title-citation.php:6
+msgid "Footer with query, featured images, title, and citation"
+msgstr ""
+
+#: inc/patterns/footer-title-tagline-social.php:6, packaged/otterwp/inc/patterns/footer-title-tagline-social.php:6, packaged/otterwp 2/inc/patterns/footer-title-tagline-social.php:6
+msgid "Footer with title, tagline, and social links on a dark background"
+msgstr ""
+
+#: inc/patterns/footer-two.php:15, packaged/otterwp/inc/patterns/footer-two.php:15, packaged/otterwp 2/inc/patterns/footer-two.php:15
+msgid "OUR PRODUCTS"
+msgstr ""
+
+#: inc/patterns/footer-two.php:25, packaged/otterwp/inc/patterns/footer-two.php:25, packaged/otterwp 2/inc/patterns/footer-two.php:25
+msgid "RESOURCES"
+msgstr ""
+
+#: inc/patterns/footer-two.php:35, packaged/otterwp/inc/patterns/footer-two.php:35, packaged/otterwp 2/inc/patterns/footer-two.php:35
+msgid "HELP &amp; SUPPORT"
+msgstr ""
+
+#: inc/patterns/footer-two.php:45, packaged/otterwp/inc/patterns/footer-two.php:45, packaged/otterwp 2/inc/patterns/footer-two.php:45
+msgid "TOP FEATURES"
+msgstr ""
+
+#: inc/patterns/general-featured-posts.php:6, packaged/otterwp/inc/patterns/general-featured-posts.php:6, packaged/otterwp 2/inc/patterns/general-featured-posts.php:6
+msgid "Featured posts"
+msgstr ""
+
+#: inc/patterns/general-image-with-caption.php:6, packaged/otterwp/inc/patterns/general-image-with-caption.php:6, packaged/otterwp 2/inc/patterns/general-image-with-caption.php:6
+msgid "Image with caption"
+msgstr ""
+
+#: inc/patterns/general-image-with-caption.php:10, inc/patterns/general-two-images-text.php:11, inc/patterns/general-two-images-text.php:17, inc/patterns/general-wide-image-intro-buttons.php:10, packaged/otterwp/inc/patterns/general-image-with-caption.php:10, packaged/otterwp/inc/patterns/general-two-images-text.php:11, packaged/otterwp/inc/patterns/general-two-images-text.php:17, packaged/otterwp/inc/patterns/general-wide-image-intro-buttons.php:10, packaged/otterwp 2/inc/patterns/general-image-with-caption.php:10, packaged/otterwp 2/inc/patterns/general-two-images-text.php:11, packaged/otterwp 2/inc/patterns/general-two-images-text.php:17, packaged/otterwp 2/inc/patterns/general-wide-image-intro-buttons.php:10
+msgid "TBA."
+msgstr ""
+
+#: inc/patterns/general-image-with-caption.php:20, inc/patterns/general-large-list-names.php:30, packaged/otterwp/inc/patterns/general-image-with-caption.php:20, packaged/otterwp/inc/patterns/general-large-list-names.php:30, packaged/otterwp 2/inc/patterns/general-image-with-caption.php:20, packaged/otterwp 2/inc/patterns/general-large-list-names.php:30
+msgid "Read more"
+msgstr ""
+
+#: inc/patterns/general-large-list-names.php:6, packaged/otterwp/inc/patterns/general-large-list-names.php:6, packaged/otterwp 2/inc/patterns/general-large-list-names.php:6
+msgid "Large list of names"
+msgstr ""
+
+#: inc/patterns/general-large-list-names.php:11, inc/patterns/page-sidebar-poster.php:32, packaged/otterwp/inc/patterns/general-large-list-names.php:11, packaged/otterwp/inc/patterns/page-sidebar-poster.php:32, packaged/otterwp 2/inc/patterns/general-large-list-names.php:11, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:32
+msgid "An icon representing binoculars."
+msgstr ""
+
+#: inc/patterns/general-large-list-names.php:21, packaged/otterwp/inc/patterns/general-large-list-names.php:21, packaged/otterwp 2/inc/patterns/general-large-list-names.php:21
+msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+msgstr ""
+
+#: inc/patterns/general-list-events.php:6, packaged/otterwp/inc/patterns/general-list-events.php:6, packaged/otterwp 2/inc/patterns/general-list-events.php:6
+msgid "List of events"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:11, packaged/otterwp/inc/patterns/general-list-events.php:11, packaged/otterwp 2/inc/patterns/general-list-events.php:11
+msgid "Speaker Series"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:25, packaged/otterwp/inc/patterns/general-list-events.php:25, packaged/otterwp 2/inc/patterns/general-list-events.php:25
+msgid "May 14th, 2022, 6 PM"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:31, packaged/otterwp/inc/patterns/general-list-events.php:31, packaged/otterwp 2/inc/patterns/general-list-events.php:31
+msgid "Jesús Rodriguez"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:37, inc/patterns/general-list-events.php:85, packaged/otterwp/inc/patterns/general-list-events.php:37, packaged/otterwp/inc/patterns/general-list-events.php:85, packaged/otterwp 2/inc/patterns/general-list-events.php:37, packaged/otterwp 2/inc/patterns/general-list-events.php:85
+msgid "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:49, packaged/otterwp/inc/patterns/general-list-events.php:49, packaged/otterwp 2/inc/patterns/general-list-events.php:49
+msgid "May 16th, 2022, 6 PM"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:55, packaged/otterwp/inc/patterns/general-list-events.php:55, packaged/otterwp 2/inc/patterns/general-list-events.php:55
+msgid "Doug Stilton"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:61, inc/patterns/general-list-events.php:109, packaged/otterwp/inc/patterns/general-list-events.php:61, packaged/otterwp/inc/patterns/general-list-events.php:109, packaged/otterwp 2/inc/patterns/general-list-events.php:61, packaged/otterwp 2/inc/patterns/general-list-events.php:109
+msgid "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:73, packaged/otterwp/inc/patterns/general-list-events.php:73, packaged/otterwp 2/inc/patterns/general-list-events.php:73
+msgid "May 18th, 2022, 7 PM"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:79, packaged/otterwp/inc/patterns/general-list-events.php:79, packaged/otterwp 2/inc/patterns/general-list-events.php:79
+msgid "Amy Jensen"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:97, packaged/otterwp/inc/patterns/general-list-events.php:97, packaged/otterwp 2/inc/patterns/general-list-events.php:97
+msgid "May 20th, 2022, 6 PM"
+msgstr ""
+
+#: inc/patterns/general-list-events.php:103, packaged/otterwp/inc/patterns/general-list-events.php:103, packaged/otterwp 2/inc/patterns/general-list-events.php:103
+msgid "Emery Driscoll"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:6, packaged/otterwp/inc/patterns/general-pricing-table.php:6, packaged/otterwp 2/inc/patterns/general-pricing-table.php:6
+msgid "Pricing table"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:15, packaged/otterwp/inc/patterns/general-pricing-table.php:15, packaged/otterwp 2/inc/patterns/general-pricing-table.php:15
+msgctxt "First item in a numbered list."
+msgid "1"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:19, packaged/otterwp/inc/patterns/general-pricing-table.php:19, packaged/otterwp 2/inc/patterns/general-pricing-table.php:19
+msgid "Pro"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:23, packaged/otterwp/inc/patterns/general-pricing-table.php:23, packaged/otterwp 2/inc/patterns/general-pricing-table.php:23
+msgid "Help support our growing community by joining at the Pro level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:28, packaged/otterwp/inc/patterns/general-pricing-table.php:28, packaged/otterwp 2/inc/patterns/general-pricing-table.php:28
+msgid "$25"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:43, packaged/otterwp/inc/patterns/general-pricing-table.php:43, packaged/otterwp 2/inc/patterns/general-pricing-table.php:43
+msgctxt "Second item in a numbered list."
+msgid "2"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:47, packaged/otterwp/inc/patterns/general-pricing-table.php:47, packaged/otterwp 2/inc/patterns/general-pricing-table.php:47
+msgid "delux"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:51, packaged/otterwp/inc/patterns/general-pricing-table.php:51, packaged/otterwp 2/inc/patterns/general-pricing-table.php:51
+msgid "Join at the delux level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:56, packaged/otterwp/inc/patterns/general-pricing-table.php:56, packaged/otterwp 2/inc/patterns/general-pricing-table.php:56
+msgid "$75"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:71, packaged/otterwp/inc/patterns/general-pricing-table.php:71, packaged/otterwp 2/inc/patterns/general-pricing-table.php:71
+msgctxt "Third item in a numbered list."
+msgid "3"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:75, packaged/otterwp/inc/patterns/general-pricing-table.php:75, packaged/otterwp 2/inc/patterns/general-pricing-table.php:75
+msgid "Premiun"
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:79, packaged/otterwp/inc/patterns/general-pricing-table.php:79, packaged/otterwp 2/inc/patterns/general-pricing-table.php:79
+msgid "Play a leading role for our community by joining at the Premiun level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
+msgstr ""
+
+#: inc/patterns/general-pricing-table.php:84, packaged/otterwp/inc/patterns/general-pricing-table.php:84, packaged/otterwp 2/inc/patterns/general-pricing-table.php:84
+msgid "$150"
+msgstr ""
+
+#: inc/patterns/general-subscribe.php:6, packaged/otterwp/inc/patterns/general-subscribe.php:6, packaged/otterwp 2/inc/patterns/general-subscribe.php:6
+msgid "Subscribe callout"
+msgstr ""
+
+#: inc/patterns/general-subscribe.php:11, packaged/otterwp/inc/patterns/general-subscribe.php:11, packaged/otterwp 2/inc/patterns/general-subscribe.php:11
+msgid "Watch birds<br>from your inbox"
+msgstr ""
+
+#: inc/patterns/general-subscribe.php:16, packaged/otterwp/inc/patterns/general-subscribe.php:16, packaged/otterwp 2/inc/patterns/general-subscribe.php:16
+msgid "Join our mailing list"
+msgstr ""
+
+#: inc/patterns/general-two-images-text.php:6, packaged/otterwp/inc/patterns/general-two-images-text.php:6, packaged/otterwp 2/inc/patterns/general-two-images-text.php:6
+msgid "Two images with text"
+msgstr ""
+
+#: inc/patterns/general-two-images-text.php:25, packaged/otterwp/inc/patterns/general-two-images-text.php:25, packaged/otterwp 2/inc/patterns/general-two-images-text.php:25
+msgid "SCREENING"
+msgstr ""
+
+#: inc/patterns/general-two-images-text.php:29, packaged/otterwp/inc/patterns/general-two-images-text.php:29, packaged/otterwp 2/inc/patterns/general-two-images-text.php:29
+msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Techville, FL"
+msgstr ""
+
+#: inc/patterns/general-two-images-text.php:42, packaged/otterwp/inc/patterns/general-two-images-text.php:42, packaged/otterwp 2/inc/patterns/general-two-images-text.php:42
+msgid "Buy Tickets"
+msgstr ""
+
+#: inc/patterns/general-wide-image-intro-buttons.php:6, packaged/otterwp/inc/patterns/general-wide-image-intro-buttons.php:6, packaged/otterwp 2/inc/patterns/general-wide-image-intro-buttons.php:6
+msgid "Wide image with introduction and buttons"
+msgstr ""
+
+#: inc/patterns/general-wide-image-intro-buttons.php:16, packaged/otterwp/inc/patterns/general-wide-image-intro-buttons.php:16, packaged/otterwp 2/inc/patterns/general-wide-image-intro-buttons.php:16
+msgid "Welcome to<br>the Otterwp Theme"
+msgstr ""
+
+#: inc/patterns/general-wide-image-intro-buttons.php:31, inc/patterns/header-center-image-adaptive.php:38, packaged/otterwp/inc/patterns/general-wide-image-intro-buttons.php:31, packaged/otterwp/inc/patterns/header-center-image-adaptive.php:38, packaged/otterwp 2/inc/patterns/general-wide-image-intro-buttons.php:31, packaged/otterwp 2/inc/patterns/header-center-image-adaptive.php:38
+msgid "Learn More"
+msgstr ""
+
+#: inc/patterns/general-wide-image-intro-buttons.php:35, inc/patterns/header-full-image.php:38, inc/patterns/otterwp-page-layout-image-and-text.php:38, inc/patterns/page-layout-image-and-image.php:21, inc/patterns/page-layout-image-and-image.php:37, packaged/otterwp/inc/patterns/general-wide-image-intro-buttons.php:35, packaged/otterwp/inc/patterns/header-full-image.php:38, packaged/otterwp/inc/patterns/otterwp-page-layout-image-and-text.php:38, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:21, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:37, packaged/otterwp 2/inc/patterns/general-wide-image-intro-buttons.php:35, packaged/otterwp 2/inc/patterns/header-full-image.php:38, packaged/otterwp 2/inc/patterns/otterwp-page-layout-image-and-text.php:38, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:21, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:37
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/header-center-image-adaptive.php:6, packaged/otterwp/inc/patterns/header-center-image-adaptive.php:6, packaged/otterwp 2/inc/patterns/header-center-image-adaptive.php:6
+msgid "Header with centered image and abaptive background"
+msgstr ""
+
+#: inc/patterns/header-center-image-adaptive.php:25, packaged/otterwp/inc/patterns/header-center-image-adaptive.php:25, packaged/otterwp 2/inc/patterns/header-center-image-adaptive.php:25
+msgid "Build "
+msgstr ""
+
+#: inc/patterns/header-center-image-adaptive.php:25, packaged/otterwp/inc/patterns/header-center-image-adaptive.php:25, packaged/otterwp 2/inc/patterns/header-center-image-adaptive.php:25
+msgid "anything "
+msgstr ""
+
+#: inc/patterns/header-center-image-adaptive.php:25, packaged/otterwp/inc/patterns/header-center-image-adaptive.php:25, packaged/otterwp 2/inc/patterns/header-center-image-adaptive.php:25
+msgid "you want "
+msgstr ""
+
+#: inc/patterns/header-center-image-adaptive.php:34, packaged/otterwp/inc/patterns/header-center-image-adaptive.php:34, packaged/otterwp 2/inc/patterns/header-center-image-adaptive.php:34
+msgid "Get Started"
+msgstr ""
+
+#: inc/patterns/header-centered-logo-black-background.php:6, packaged/otterwp/inc/patterns/header-centered-logo-black-background.php:6, packaged/otterwp 2/inc/patterns/header-centered-logo-black-background.php:6
+msgid "Header with centered logo and black background"
+msgstr ""
+
+#: inc/patterns/header-centered-logo.php:6, packaged/otterwp/inc/patterns/header-centered-logo.php:6, packaged/otterwp 2/inc/patterns/header-centered-logo.php:6
+msgid "Header with centered logo"
+msgstr ""
+
+#: inc/patterns/header-centered-title-navigation-social.php:6, packaged/otterwp/inc/patterns/header-centered-title-navigation-social.php:6, packaged/otterwp 2/inc/patterns/header-centered-title-navigation-social.php:6
+msgid "Centered header with navigation, social links"
+msgstr ""
+
+#: inc/patterns/header-default.php:6, packaged/otterwp/inc/patterns/header-default.php:6, packaged/otterwp 2/inc/patterns/header-default.php:6
+msgid "Default header"
+msgstr ""
+
+#: inc/patterns/header-default.php:26, packaged/otterwp/inc/patterns/header-default.php:26, packaged/otterwp 2/inc/patterns/header-default.php:26
+msgid "Grow Faster"
+msgstr ""
+
+#: inc/patterns/header-default.php:32, packaged/otterwp/inc/patterns/header-default.php:32, packaged/otterwp 2/inc/patterns/header-default.php:32
+msgid "WHAT WE DO"
+msgstr ""
+
+#: inc/patterns/header-default.php:45, packaged/otterwp/inc/patterns/header-default.php:45, packaged/otterwp 2/inc/patterns/header-default.php:45
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/patterns/header-full-image.php:6, packaged/otterwp/inc/patterns/header-full-image.php:6, packaged/otterwp 2/inc/patterns/header-full-image.php:6
+msgid "Hero full image"
+msgstr ""
+
+#: inc/patterns/header-full-image.php:29, packaged/otterwp/inc/patterns/header-full-image.php:29, packaged/otterwp 2/inc/patterns/header-full-image.php:29
+msgid "Heading one"
+msgstr ""
+
+#: inc/patterns/header-image-background.php:6, packaged/otterwp/inc/patterns/header-image-background.php:6, packaged/otterwp 2/inc/patterns/header-image-background.php:6
+msgid "Header with image background"
+msgstr ""
+
+#: inc/patterns/header-image-background.php:11, packaged/otterwp/inc/patterns/header-image-background.php:11, packaged/otterwp 2/inc/patterns/header-image-background.php:11
+msgid "Illustration of a flying bird"
+msgstr ""
+
+#: inc/patterns/header-logo-navigation-gray-background.php:6, packaged/otterwp/inc/patterns/header-logo-navigation-gray-background.php:6, packaged/otterwp 2/inc/patterns/header-logo-navigation-gray-background.php:6
+msgid "Logo and navigation header with gray background"
+msgstr ""
+
+#: inc/patterns/header-logo-navigation-offset-tagline.php:6, packaged/otterwp/inc/patterns/header-logo-navigation-offset-tagline.php:6, packaged/otterwp 2/inc/patterns/header-logo-navigation-offset-tagline.php:6
+msgid "Logo, navigation, and offset tagline Header"
+msgstr ""
+
+#: inc/patterns/header-logo-navigation-social-black-background.php:6, packaged/otterwp/inc/patterns/header-logo-navigation-social-black-background.php:6, packaged/otterwp 2/inc/patterns/header-logo-navigation-social-black-background.php:6
+msgid "Logo, navigation, and social links header with black background"
+msgstr ""
+
+#: inc/patterns/header-stacked.php:6, packaged/otterwp/inc/patterns/header-stacked.php:6, packaged/otterwp 2/inc/patterns/header-stacked.php:6
+msgid "Logo and navigation header"
+msgstr ""
+
+#: inc/patterns/header-text-only-green-background.php:6, packaged/otterwp/inc/patterns/header-text-only-green-background.php:6, packaged/otterwp 2/inc/patterns/header-text-only-green-background.php:6
+msgid "Text-only header with green background"
+msgstr ""
+
+#: inc/patterns/header-text-only-with-tagline-black-background.php:6, packaged/otterwp/inc/patterns/header-text-only-with-tagline-black-background.php:6, packaged/otterwp 2/inc/patterns/header-text-only-with-tagline-black-background.php:6
+msgid "Text-only header with tagline and black background"
+msgstr ""
+
+#: inc/patterns/header-title-and-button.php:6, packaged/otterwp/inc/patterns/header-title-and-button.php:6, packaged/otterwp 2/inc/patterns/header-title-and-button.php:6
+msgid "Title and button header"
+msgstr ""
+
+#: inc/patterns/header-title-navigation-social.php:6, packaged/otterwp/inc/patterns/header-title-navigation-social.php:6, packaged/otterwp 2/inc/patterns/header-title-navigation-social.php:6
+msgid "Title, navigation, and social links header"
+msgstr ""
+
+#: inc/patterns/header-with-tagline.php:6, packaged/otterwp/inc/patterns/header-with-tagline.php:6, packaged/otterwp 2/inc/patterns/header-with-tagline.php:6
+msgid "Header with tagline"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:6, packaged/otterwp/inc/patterns/hidden-404.php:6, packaged/otterwp 2/inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:9, packaged/otterwp/inc/patterns/hidden-404.php:9, packaged/otterwp 2/inc/patterns/hidden-404.php:9
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:14, packaged/otterwp/inc/patterns/hidden-404.php:14, packaged/otterwp 2/inc/patterns/hidden-404.php:14
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:14, inc/patterns/page-search-one.php:17, inc/patterns/page-search-one.php:17, packaged/otterwp/inc/patterns/hidden-404.php:14, packaged/otterwp/inc/patterns/page-search-one.php:17, packaged/otterwp/inc/patterns/page-search-one.php:17, packaged/otterwp 2/inc/patterns/hidden-404.php:14, packaged/otterwp 2/inc/patterns/page-search-one.php:17, packaged/otterwp 2/inc/patterns/page-search-one.php:17
+msgid "Search"
+msgstr ""
+
+#: inc/patterns/otterwp-page-layout-image-and-text.php:6, packaged/otterwp/inc/patterns/otterwp-page-layout-image-and-text.php:6, packaged/otterwp 2/inc/patterns/otterwp-page-layout-image-and-text.php:6
+msgid "Otterwp layout with image and text"
+msgstr ""
+
+#: inc/patterns/otterwp-page-layout-image-and-text.php:24, packaged/otterwp/inc/patterns/otterwp-page-layout-image-and-text.php:24, packaged/otterwp 2/inc/patterns/otterwp-page-layout-image-and-text.php:24
+msgid "WE ARE ALWAYS FOCUSED ON"
+msgstr ""
+
+#: inc/patterns/otterwp-page-layout-image-and-text.php:29, packaged/otterwp/inc/patterns/otterwp-page-layout-image-and-text.php:29, packaged/otterwp 2/inc/patterns/otterwp-page-layout-image-and-text.php:29
+msgid "Why Choose Us"
+msgstr ""
+
+#: inc/patterns/page-about-large-image-and-buttons.php:6, packaged/otterwp/inc/patterns/page-about-large-image-and-buttons.php:6, packaged/otterwp 2/inc/patterns/page-about-large-image-and-buttons.php:6
+msgid "About page with large image and buttons"
+msgstr ""
+
+#: inc/patterns/page-about-large-image-and-buttons.php:17, packaged/otterwp/inc/patterns/page-about-large-image-and-buttons.php:17, packaged/otterwp 2/inc/patterns/page-about-large-image-and-buttons.php:17
+msgid "Purchase my work"
+msgstr ""
+
+#: inc/patterns/page-about-large-image-and-buttons.php:25, packaged/otterwp/inc/patterns/page-about-large-image-and-buttons.php:25, packaged/otterwp 2/inc/patterns/page-about-large-image-and-buttons.php:25
+msgid "Support my studio"
+msgstr ""
+
+#: inc/patterns/page-about-large-image-and-buttons.php:33, packaged/otterwp/inc/patterns/page-about-large-image-and-buttons.php:33, packaged/otterwp 2/inc/patterns/page-about-large-image-and-buttons.php:33
+msgid "Take a class"
+msgstr ""
+
+#: inc/patterns/page-about-large-image-and-buttons.php:43, packaged/otterwp/inc/patterns/page-about-large-image-and-buttons.php:43, packaged/otterwp 2/inc/patterns/page-about-large-image-and-buttons.php:43
+msgid "Read about me"
+msgstr ""
+
+#: inc/patterns/page-about-large-image-and-buttons.php:51, packaged/otterwp/inc/patterns/page-about-large-image-and-buttons.php:51, packaged/otterwp 2/inc/patterns/page-about-large-image-and-buttons.php:51
+msgid "Learn about my process"
+msgstr ""
+
+#: inc/patterns/page-about-large-image-and-buttons.php:59, packaged/otterwp/inc/patterns/page-about-large-image-and-buttons.php:59, packaged/otterwp 2/inc/patterns/page-about-large-image-and-buttons.php:59
+msgid "Join my mailing list"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:6, packaged/otterwp/inc/patterns/page-about-links-dark.php:6, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:6
+msgid "About page links (dark)"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:13, inc/patterns/page-about-links.php:10, packaged/otterwp/inc/patterns/page-about-links-dark.php:13, packaged/otterwp/inc/patterns/page-about-links.php:10, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:13, packaged/otterwp 2/inc/patterns/page-about-links.php:10
+msgid "Logo featuring a flying bird"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:17, packaged/otterwp/inc/patterns/page-about-links-dark.php:17, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:17
+msgid "Great games"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:26, inc/patterns/page-about-links.php:30, packaged/otterwp/inc/patterns/page-about-links-dark.php:26, packaged/otterwp/inc/patterns/page-about-links.php:30, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:26, packaged/otterwp 2/inc/patterns/page-about-links.php:30
+msgid "Watch our videos"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:30, inc/patterns/page-about-links.php:34, packaged/otterwp/inc/patterns/page-about-links-dark.php:30, packaged/otterwp/inc/patterns/page-about-links.php:34, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:30, packaged/otterwp 2/inc/patterns/page-about-links.php:34
+msgid "Listen on iTunes Podcasts"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:34, inc/patterns/page-about-links.php:38, packaged/otterwp/inc/patterns/page-about-links-dark.php:34, packaged/otterwp/inc/patterns/page-about-links.php:38, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:34, packaged/otterwp 2/inc/patterns/page-about-links.php:38
+msgid "Listen on Spotify"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:38, inc/patterns/page-about-links.php:42, packaged/otterwp/inc/patterns/page-about-links-dark.php:38, packaged/otterwp/inc/patterns/page-about-links.php:42, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:38, packaged/otterwp 2/inc/patterns/page-about-links.php:42
+msgid "Support the show"
+msgstr ""
+
+#: inc/patterns/page-about-links-dark.php:42, inc/patterns/page-about-links.php:46, packaged/otterwp/inc/patterns/page-about-links-dark.php:42, packaged/otterwp/inc/patterns/page-about-links.php:46, packaged/otterwp 2/inc/patterns/page-about-links-dark.php:42, packaged/otterwp 2/inc/patterns/page-about-links.php:46
+msgid "About the hosts"
+msgstr ""
+
+#: inc/patterns/page-about-links.php:6, packaged/otterwp/inc/patterns/page-about-links.php:6, packaged/otterwp 2/inc/patterns/page-about-links.php:6
+msgid "About page links"
+msgstr ""
+
+#: inc/patterns/page-about-links.php:17, packaged/otterwp/inc/patterns/page-about-links.php:17, packaged/otterwp 2/inc/patterns/page-about-links.php:17
+msgid "Gaming"
+msgstr ""
+
+#: inc/patterns/page-about-links.php:21, packaged/otterwp/inc/patterns/page-about-links.php:21, packaged/otterwp 2/inc/patterns/page-about-links.php:21
+msgid "A podcast about streaming"
+msgstr ""
+
+#: inc/patterns/page-about-media-left.php:6, packaged/otterwp/inc/patterns/page-about-media-left.php:6, packaged/otterwp 2/inc/patterns/page-about-media-left.php:6
+msgid "About page with media on the left"
+msgstr ""
+
+#: inc/patterns/page-about-media-left.php:9, packaged/otterwp/inc/patterns/page-about-media-left.php:9, packaged/otterwp 2/inc/patterns/page-about-media-left.php:9
+msgid "Image of a gaming girl"
+msgstr ""
+
+#: inc/patterns/page-about-media-left.php:17, packaged/otterwp/inc/patterns/page-about-media-left.php:17, packaged/otterwp 2/inc/patterns/page-about-media-left.php:17
+msgid "Doug"
+msgstr ""
+
+#: inc/patterns/page-about-media-left.php:17, packaged/otterwp/inc/patterns/page-about-media-left.php:17, packaged/otterwp 2/inc/patterns/page-about-media-left.php:17
+msgid "Stilton"
+msgstr ""
+
+#: inc/patterns/page-about-media-left.php:21, inc/patterns/page-about-media-right.php:20, packaged/otterwp/inc/patterns/page-about-media-left.php:21, packaged/otterwp/inc/patterns/page-about-media-right.php:20, packaged/otterwp 2/inc/patterns/page-about-media-left.php:21, packaged/otterwp 2/inc/patterns/page-about-media-right.php:20
+msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr ""
+
+#: inc/patterns/page-about-media-right.php:6, packaged/otterwp/inc/patterns/page-about-media-right.php:6, packaged/otterwp 2/inc/patterns/page-about-media-right.php:6
+msgid "About page with media on the right"
+msgstr ""
+
+#: inc/patterns/page-about-media-right.php:9, packaged/otterwp/inc/patterns/page-about-media-right.php:9, packaged/otterwp 2/inc/patterns/page-about-media-right.php:9
+msgid "An image of Streaming girl"
+msgstr ""
+
+#: inc/patterns/page-about-media-right.php:16, packaged/otterwp/inc/patterns/page-about-media-right.php:16, packaged/otterwp 2/inc/patterns/page-about-media-right.php:16
+msgid "Emery<br>Driscoll"
+msgstr ""
+
+#: inc/patterns/page-about-simple-dark.php:6, packaged/otterwp/inc/patterns/page-about-simple-dark.php:6, packaged/otterwp 2/inc/patterns/page-about-simple-dark.php:6
+msgid "Simple dark about page"
+msgstr ""
+
+#: inc/patterns/page-about-simple-dark.php:18, packaged/otterwp/inc/patterns/page-about-simple-dark.php:18, packaged/otterwp 2/inc/patterns/page-about-simple-dark.php:18
+msgid "Jesús<br>Rodriguez"
+msgstr ""
+
+#: inc/patterns/page-about-simple-dark.php:22, packaged/otterwp/inc/patterns/page-about-simple-dark.php:22, packaged/otterwp 2/inc/patterns/page-about-simple-dark.php:22
+msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid gamer, and I also broadcast my own streaming show on Twich at 11PM EDT."
+msgstr ""
+
+#: inc/patterns/page-about-solid-color.php:6, packaged/otterwp/inc/patterns/page-about-solid-color.php:6, packaged/otterwp 2/inc/patterns/page-about-solid-color.php:6
+msgid "About page on solid color background"
+msgstr ""
+
+#: inc/patterns/page-about-solid-color.php:14, packaged/otterwp/inc/patterns/page-about-solid-color.php:14, packaged/otterwp 2/inc/patterns/page-about-solid-color.php:14
+msgid "Edvard<br>Smith"
+msgstr ""
+
+#: inc/patterns/page-about-solid-color.php:22, packaged/otterwp/inc/patterns/page-about-solid-color.php:22, packaged/otterwp 2/inc/patterns/page-about-solid-color.php:22
+msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
+msgstr ""
+
+#: inc/patterns/page-break-one.php:6, packaged/otterwp/inc/patterns/page-break-one.php:6, packaged/otterwp 2/inc/patterns/page-break-one.php:6
+msgid "Page Break One"
+msgstr ""
+
+#: inc/patterns/page-break-one.php:13, packaged/otterwp/inc/patterns/page-break-one.php:13, packaged/otterwp 2/inc/patterns/page-break-one.php:13
+msgid "Trusted by over"
+msgstr ""
+
+#: inc/patterns/page-break-one.php:13, packaged/otterwp/inc/patterns/page-break-one.php:13, packaged/otterwp 2/inc/patterns/page-break-one.php:13
+msgid "clients"
+msgstr ""
+
+#: inc/patterns/page-break-one.php:17, inc/patterns/team-two.php:19, packaged/otterwp/inc/patterns/page-break-one.php:17, packaged/otterwp/inc/patterns/team-two.php:19, packaged/otterwp 2/inc/patterns/page-break-one.php:17, packaged/otterwp 2/inc/patterns/team-two.php:19
+msgid "worldwide since 2021"
+msgstr ""
+
+#: inc/patterns/page-break-one.php:35, packaged/otterwp/inc/patterns/page-break-one.php:35, packaged/otterwp 2/inc/patterns/page-break-one.php:35
+msgid "5000 Ratings"
+msgstr ""
+
+#: inc/patterns/page-break-one.php:45, inc/patterns/team-two.php:47, packaged/otterwp/inc/patterns/page-break-one.php:45, packaged/otterwp/inc/patterns/team-two.php:47, packaged/otterwp 2/inc/patterns/page-break-one.php:45, packaged/otterwp 2/inc/patterns/team-two.php:47
+msgid "Worldwide Sales per Year"
+msgstr ""
+
+#: inc/patterns/page-break-three.php:6, packaged/otterwp/inc/patterns/page-break-three.php:6, packaged/otterwp 2/inc/patterns/page-break-three.php:6
+msgid "Page Break Three"
+msgstr ""
+
+#: inc/patterns/page-break-three.php:17, inc/patterns/page-layout-image-and-image.php:16, packaged/otterwp/inc/patterns/page-break-three.php:17, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:16, packaged/otterwp 2/inc/patterns/page-break-three.php:17, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:16
+msgid "Title one"
+msgstr ""
+
+#: inc/patterns/page-break-three.php:31, inc/patterns/page-layout-image-and-image.php:28, packaged/otterwp/inc/patterns/page-break-three.php:31, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:28, packaged/otterwp 2/inc/patterns/page-break-three.php:31, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:28
+msgid "Title Two"
+msgstr ""
+
+#: inc/patterns/page-break-three.php:45, packaged/otterwp/inc/patterns/page-break-three.php:45, packaged/otterwp 2/inc/patterns/page-break-three.php:45
+msgid "Title Three"
+msgstr ""
+
+#: inc/patterns/page-break-two.php:6, packaged/otterwp/inc/patterns/page-break-two.php:6, packaged/otterwp 2/inc/patterns/page-break-two.php:6
+msgid "Page Break Two"
+msgstr ""
+
+#: inc/patterns/page-break-two.php:12, packaged/otterwp/inc/patterns/page-break-two.php:12, packaged/otterwp 2/inc/patterns/page-break-two.php:12
+msgid "Unparalleled Performance"
+msgstr ""
+
+#: inc/patterns/page-break-two.php:30, packaged/otterwp/inc/patterns/page-break-two.php:30, packaged/otterwp 2/inc/patterns/page-break-two.php:30
+msgid "Amazing"
+msgstr ""
+
+#: inc/patterns/page-break-two.php:46, packaged/otterwp/inc/patterns/page-break-two.php:46, packaged/otterwp 2/inc/patterns/page-break-two.php:46
+msgid "Performing"
+msgstr ""
+
+#: inc/patterns/page-break-two.php:62, packaged/otterwp/inc/patterns/page-break-two.php:62, packaged/otterwp 2/inc/patterns/page-break-two.php:62
+msgid "Innovative"
+msgstr ""
+
+#: inc/patterns/page-layout-image-and-image.php:6, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:6, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:6
+msgid "Page layout with image and image"
+msgstr ""
+
+#: inc/patterns/page-layout-image-and-image.php:32, packaged/otterwp/inc/patterns/page-layout-image-and-image.php:32, packaged/otterwp 2/inc/patterns/page-layout-image-and-image.php:32
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: inc/patterns/page-layout-image-and-text.php:6, packaged/otterwp/inc/patterns/page-layout-image-and-text.php:6, packaged/otterwp 2/inc/patterns/page-layout-image-and-text.php:6
+msgid "Page layout with image and text"
+msgstr ""
+
+#: inc/patterns/page-layout-image-and-text.php:10, packaged/otterwp/inc/patterns/page-layout-image-and-text.php:10, packaged/otterwp 2/inc/patterns/page-layout-image-and-text.php:10
+msgid "<em>Working </em><br><em>Hard To Build</em>"
+msgstr ""
+
+#: inc/patterns/page-layout-image-and-text.php:27, packaged/otterwp/inc/patterns/page-layout-image-and-text.php:27, packaged/otterwp 2/inc/patterns/page-layout-image-and-text.php:27
+msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:6, packaged/otterwp/inc/patterns/page-layout-six-images.php:6, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:6
+msgid "Page layout six images and text"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:12, packaged/otterwp/inc/patterns/page-layout-six-images.php:12, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:12
+msgid "Our Case Studies"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:16, packaged/otterwp/inc/patterns/page-layout-six-images.php:16, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:16
+msgid "Modern Case Studies"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:30, packaged/otterwp/inc/patterns/page-layout-six-images.php:30, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:30
+msgid "Theme Design"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:40, inc/patterns/page-layout-six-images.php:84, packaged/otterwp/inc/patterns/page-layout-six-images.php:40, packaged/otterwp/inc/patterns/page-layout-six-images.php:84, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:40, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:84
+msgid "Software"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:44, packaged/otterwp/inc/patterns/page-layout-six-images.php:44, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:44
+msgid "Website"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:54, inc/patterns/page-layout-six-images.php:98, inc/patterns/team-four.php:63, packaged/otterwp/inc/patterns/page-layout-six-images.php:54, packaged/otterwp/inc/patterns/page-layout-six-images.php:98, packaged/otterwp/inc/patterns/team-four.php:63, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:54, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:98, packaged/otterwp 2/inc/patterns/team-four.php:63
+msgid "Business Strategy"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:58, packaged/otterwp/inc/patterns/page-layout-six-images.php:58, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:58
+msgid "HTML/CSS"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:74, packaged/otterwp/inc/patterns/page-layout-six-images.php:74, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:74
+msgid "Copy Writing"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:88, packaged/otterwp/inc/patterns/page-layout-six-images.php:88, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:88
+msgid "eCommerce"
+msgstr ""
+
+#: inc/patterns/page-layout-six-images.php:102, packaged/otterwp/inc/patterns/page-layout-six-images.php:102, packaged/otterwp 2/inc/patterns/page-layout-six-images.php:102
+msgid "Data Analyst"
+msgstr ""
+
+#: inc/patterns/page-layout-two-columns.php:6, packaged/otterwp/inc/patterns/page-layout-two-columns.php:6, packaged/otterwp 2/inc/patterns/page-layout-two-columns.php:6
+msgid "Page layout with two columns"
+msgstr ""
+
+#: inc/patterns/page-layout-two-columns.php:10, packaged/otterwp/inc/patterns/page-layout-two-columns.php:10, packaged/otterwp 2/inc/patterns/page-layout-two-columns.php:10
+msgid "<em>Streaming </em><br><em>&amp; Gaming</em>"
+msgstr ""
+
+#: inc/patterns/page-layout-two-columns.php:21, packaged/otterwp/inc/patterns/page-layout-two-columns.php:21, packaged/otterwp 2/inc/patterns/page-layout-two-columns.php:21
+msgid "WELCOME"
+msgstr ""
+
+#: inc/patterns/page-layout-two-columns.php:58, packaged/otterwp/inc/patterns/page-layout-two-columns.php:58, packaged/otterwp 2/inc/patterns/page-layout-two-columns.php:58
+msgid "POSTS"
+msgstr ""
+
+#: inc/patterns/page-search-one.php:6, packaged/otterwp/inc/patterns/page-search-one.php:6, packaged/otterwp 2/inc/patterns/page-search-one.php:6
+msgid "Page layout search"
+msgstr ""
+
+#: inc/patterns/page-search-one.php:12, packaged/otterwp/inc/patterns/page-search-one.php:12, packaged/otterwp 2/inc/patterns/page-search-one.php:12
+msgid "Search Now"
+msgstr ""
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:6, packaged/otterwp/inc/patterns/page-sidebar-blog-posts-right.php:6, packaged/otterwp 2/inc/patterns/page-sidebar-blog-posts-right.php:6
+msgid "Blog posts with right sidebar"
+msgstr ""
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:58, packaged/otterwp/inc/patterns/page-sidebar-blog-posts-right.php:58, packaged/otterwp 2/inc/patterns/page-sidebar-blog-posts-right.php:58
+msgid "Image of a Steamer girl."
+msgstr ""
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:80, packaged/otterwp/inc/patterns/page-sidebar-blog-posts-right.php:80, packaged/otterwp 2/inc/patterns/page-sidebar-blog-posts-right.php:80
+msgid "Tags"
+msgstr ""
+
+#: inc/patterns/page-sidebar-blog-posts.php:6, packaged/otterwp/inc/patterns/page-sidebar-blog-posts.php:6, packaged/otterwp 2/inc/patterns/page-sidebar-blog-posts.php:6
+msgid "Blog posts with left sidebar"
+msgstr ""
+
+#: inc/patterns/page-sidebar-grid-posts.php:6, packaged/otterwp/inc/patterns/page-sidebar-grid-posts.php:6, packaged/otterwp 2/inc/patterns/page-sidebar-grid-posts.php:6
+msgid "Grid of posts with left sidebar"
+msgstr ""
+
+#: inc/patterns/page-sidebar-poster.php:6, packaged/otterwp/inc/patterns/page-sidebar-poster.php:6, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:6
+msgid "Poster with right sidebar"
+msgstr ""
+
+#: inc/patterns/page-sidebar-poster.php:14, packaged/otterwp/inc/patterns/page-sidebar-poster.php:14, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:14
+msgid "<em>Flutter</em>, a collection of bird-related ephemera"
+msgstr ""
+
+#: inc/patterns/page-sidebar-poster.php:26, packaged/otterwp/inc/patterns/page-sidebar-poster.php:26, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:26
+msgid "Image of a Steamer girl"
+msgstr ""
+
+#: inc/patterns/page-sidebar-poster.php:40, packaged/otterwp/inc/patterns/page-sidebar-poster.php:40, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:40
+msgid "Date"
+msgstr ""
+
+#: inc/patterns/page-sidebar-poster.php:44, packaged/otterwp/inc/patterns/page-sidebar-poster.php:44, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:44
+msgid "February, 12 2021"
+msgstr ""
+
+#: inc/patterns/page-sidebar-poster.php:52, packaged/otterwp/inc/patterns/page-sidebar-poster.php:52, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:52
+msgid "Location"
+msgstr ""
+
+#: inc/patterns/page-sidebar-poster.php:56, packaged/otterwp/inc/patterns/page-sidebar-poster.php:56, packaged/otterwp 2/inc/patterns/page-sidebar-poster.php:56
+msgid "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:6, packaged/otterwp/inc/patterns/pricing-table-one.php:6, packaged/otterwp 2/inc/patterns/pricing-table-one.php:6
+msgid "Pricing Table One"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:14, inc/patterns/pricing-table-three.php:14, inc/patterns/pricing-table-two.php:14, packaged/otterwp/inc/patterns/pricing-table-one.php:14, packaged/otterwp/inc/patterns/pricing-table-three.php:14, packaged/otterwp/inc/patterns/pricing-table-two.php:14, packaged/otterwp 2/inc/patterns/pricing-table-one.php:14, packaged/otterwp 2/inc/patterns/pricing-table-three.php:14, packaged/otterwp 2/inc/patterns/pricing-table-two.php:14
+msgid "BASIC"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:29, inc/patterns/pricing-table-one.php:65, inc/patterns/pricing-table-one.php:101, inc/patterns/pricing-table-two.php:27, inc/patterns/pricing-table-two.php:61, inc/patterns/pricing-table-two.php:95, packaged/otterwp/inc/patterns/pricing-table-one.php:29, packaged/otterwp/inc/patterns/pricing-table-one.php:65, packaged/otterwp/inc/patterns/pricing-table-one.php:101, packaged/otterwp/inc/patterns/pricing-table-two.php:27, packaged/otterwp/inc/patterns/pricing-table-two.php:61, packaged/otterwp/inc/patterns/pricing-table-two.php:95, packaged/otterwp 2/inc/patterns/pricing-table-one.php:29, packaged/otterwp 2/inc/patterns/pricing-table-one.php:65, packaged/otterwp 2/inc/patterns/pricing-table-one.php:101, packaged/otterwp 2/inc/patterns/pricing-table-two.php:27, packaged/otterwp 2/inc/patterns/pricing-table-two.php:61, packaged/otterwp 2/inc/patterns/pricing-table-two.php:95
+msgid "Pure HTML"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:29, inc/patterns/pricing-table-one.php:65, inc/patterns/pricing-table-one.php:101, inc/patterns/pricing-table-two.php:27, inc/patterns/pricing-table-two.php:61, inc/patterns/pricing-table-two.php:95, packaged/otterwp/inc/patterns/pricing-table-one.php:29, packaged/otterwp/inc/patterns/pricing-table-one.php:65, packaged/otterwp/inc/patterns/pricing-table-one.php:101, packaged/otterwp/inc/patterns/pricing-table-two.php:27, packaged/otterwp/inc/patterns/pricing-table-two.php:61, packaged/otterwp/inc/patterns/pricing-table-two.php:95, packaged/otterwp 2/inc/patterns/pricing-table-one.php:29, packaged/otterwp 2/inc/patterns/pricing-table-one.php:65, packaged/otterwp 2/inc/patterns/pricing-table-one.php:101, packaged/otterwp 2/inc/patterns/pricing-table-two.php:27, packaged/otterwp 2/inc/patterns/pricing-table-two.php:61, packaged/otterwp 2/inc/patterns/pricing-table-two.php:95
+msgid "CSS"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:29, inc/patterns/pricing-table-one.php:65, inc/patterns/pricing-table-one.php:101, inc/patterns/pricing-table-two.php:27, inc/patterns/pricing-table-two.php:61, inc/patterns/pricing-table-two.php:95, packaged/otterwp/inc/patterns/pricing-table-one.php:29, packaged/otterwp/inc/patterns/pricing-table-one.php:65, packaged/otterwp/inc/patterns/pricing-table-one.php:101, packaged/otterwp/inc/patterns/pricing-table-two.php:27, packaged/otterwp/inc/patterns/pricing-table-two.php:61, packaged/otterwp/inc/patterns/pricing-table-two.php:95, packaged/otterwp 2/inc/patterns/pricing-table-one.php:29, packaged/otterwp 2/inc/patterns/pricing-table-one.php:65, packaged/otterwp 2/inc/patterns/pricing-table-one.php:101, packaged/otterwp 2/inc/patterns/pricing-table-two.php:27, packaged/otterwp 2/inc/patterns/pricing-table-two.php:61, packaged/otterwp 2/inc/patterns/pricing-table-two.php:95
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:29, inc/patterns/pricing-table-one.php:65, inc/patterns/pricing-table-one.php:101, inc/patterns/pricing-table-two.php:27, inc/patterns/pricing-table-two.php:61, inc/patterns/pricing-table-two.php:95, packaged/otterwp/inc/patterns/pricing-table-one.php:29, packaged/otterwp/inc/patterns/pricing-table-one.php:65, packaged/otterwp/inc/patterns/pricing-table-one.php:101, packaged/otterwp/inc/patterns/pricing-table-two.php:27, packaged/otterwp/inc/patterns/pricing-table-two.php:61, packaged/otterwp/inc/patterns/pricing-table-two.php:95, packaged/otterwp 2/inc/patterns/pricing-table-one.php:29, packaged/otterwp 2/inc/patterns/pricing-table-one.php:65, packaged/otterwp 2/inc/patterns/pricing-table-one.php:101, packaged/otterwp 2/inc/patterns/pricing-table-two.php:27, packaged/otterwp 2/inc/patterns/pricing-table-two.php:61, packaged/otterwp 2/inc/patterns/pricing-table-two.php:95
+msgid "Well-commented Code"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:29, inc/patterns/pricing-table-one.php:65, inc/patterns/pricing-table-one.php:101, inc/patterns/pricing-table-two.php:27, inc/patterns/pricing-table-two.php:61, inc/patterns/pricing-table-two.php:95, packaged/otterwp/inc/patterns/pricing-table-one.php:29, packaged/otterwp/inc/patterns/pricing-table-one.php:65, packaged/otterwp/inc/patterns/pricing-table-one.php:101, packaged/otterwp/inc/patterns/pricing-table-two.php:27, packaged/otterwp/inc/patterns/pricing-table-two.php:61, packaged/otterwp/inc/patterns/pricing-table-two.php:95, packaged/otterwp 2/inc/patterns/pricing-table-one.php:29, packaged/otterwp 2/inc/patterns/pricing-table-one.php:65, packaged/otterwp 2/inc/patterns/pricing-table-one.php:101, packaged/otterwp 2/inc/patterns/pricing-table-two.php:27, packaged/otterwp 2/inc/patterns/pricing-table-two.php:61, packaged/otterwp 2/inc/patterns/pricing-table-two.php:95
+msgid "Easy to Use"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:38, inc/patterns/pricing-table-one.php:110, inc/patterns/pricing-table-three.php:54, inc/patterns/pricing-table-three.php:106, inc/patterns/pricing-table-three.php:158, inc/patterns/pricing-table-two.php:36, inc/patterns/pricing-table-two.php:70, inc/patterns/pricing-table-two.php:104, packaged/otterwp/inc/patterns/pricing-table-one.php:38, packaged/otterwp/inc/patterns/pricing-table-one.php:110, packaged/otterwp/inc/patterns/pricing-table-three.php:54, packaged/otterwp/inc/patterns/pricing-table-three.php:106, packaged/otterwp/inc/patterns/pricing-table-three.php:158, packaged/otterwp/inc/patterns/pricing-table-two.php:36, packaged/otterwp/inc/patterns/pricing-table-two.php:70, packaged/otterwp/inc/patterns/pricing-table-two.php:104, packaged/otterwp 2/inc/patterns/pricing-table-one.php:38, packaged/otterwp 2/inc/patterns/pricing-table-one.php:110, packaged/otterwp 2/inc/patterns/pricing-table-three.php:54, packaged/otterwp 2/inc/patterns/pricing-table-three.php:106, packaged/otterwp 2/inc/patterns/pricing-table-three.php:158, packaged/otterwp 2/inc/patterns/pricing-table-two.php:36, packaged/otterwp 2/inc/patterns/pricing-table-two.php:70, packaged/otterwp 2/inc/patterns/pricing-table-two.php:104
+msgid "SIGN UP"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:50, inc/patterns/pricing-table-two.php:48, packaged/otterwp/inc/patterns/pricing-table-one.php:50, packaged/otterwp/inc/patterns/pricing-table-two.php:48, packaged/otterwp 2/inc/patterns/pricing-table-one.php:50, packaged/otterwp 2/inc/patterns/pricing-table-two.php:48
+msgid "PRO"
+msgstr ""
+
+#: inc/patterns/pricing-table-one.php:86, inc/patterns/pricing-table-three.php:118, inc/patterns/pricing-table-two.php:82, packaged/otterwp/inc/patterns/pricing-table-one.php:86, packaged/otterwp/inc/patterns/pricing-table-three.php:118, packaged/otterwp/inc/patterns/pricing-table-two.php:82, packaged/otterwp 2/inc/patterns/pricing-table-one.php:86, packaged/otterwp 2/inc/patterns/pricing-table-three.php:118, packaged/otterwp 2/inc/patterns/pricing-table-two.php:82
+msgid "PREMIUM"
+msgstr ""
+
+#: inc/patterns/pricing-table-three.php:6, packaged/otterwp/inc/patterns/pricing-table-three.php:6, packaged/otterwp 2/inc/patterns/pricing-table-three.php:6
+msgid "Pricing Table Three"
+msgstr ""
+
+#: inc/patterns/pricing-table-three.php:25, inc/patterns/pricing-table-three.php:77, inc/patterns/pricing-table-three.php:129, packaged/otterwp/inc/patterns/pricing-table-three.php:25, packaged/otterwp/inc/patterns/pricing-table-three.php:77, packaged/otterwp/inc/patterns/pricing-table-three.php:129, packaged/otterwp 2/inc/patterns/pricing-table-three.php:25, packaged/otterwp 2/inc/patterns/pricing-table-three.php:77, packaged/otterwp 2/inc/patterns/pricing-table-three.php:129
+msgid "hours"
+msgstr ""
+
+#: inc/patterns/pricing-table-three.php:25, inc/patterns/pricing-table-three.php:77, inc/patterns/pricing-table-three.php:129, packaged/otterwp/inc/patterns/pricing-table-three.php:25, packaged/otterwp/inc/patterns/pricing-table-three.php:77, packaged/otterwp/inc/patterns/pricing-table-three.php:129, packaged/otterwp 2/inc/patterns/pricing-table-three.php:25, packaged/otterwp 2/inc/patterns/pricing-table-three.php:77, packaged/otterwp 2/inc/patterns/pricing-table-three.php:129
+msgid "access daily"
+msgstr ""
+
+#: inc/patterns/pricing-table-three.php:33, inc/patterns/pricing-table-three.php:85, inc/patterns/pricing-table-three.php:137, packaged/otterwp/inc/patterns/pricing-table-three.php:33, packaged/otterwp/inc/patterns/pricing-table-three.php:85, packaged/otterwp/inc/patterns/pricing-table-three.php:137, packaged/otterwp 2/inc/patterns/pricing-table-three.php:33, packaged/otterwp 2/inc/patterns/pricing-table-three.php:85, packaged/otterwp 2/inc/patterns/pricing-table-three.php:137
+msgid "messages"
+msgstr ""
+
+#: inc/patterns/pricing-table-three.php:41, inc/patterns/pricing-table-three.php:93, packaged/otterwp/inc/patterns/pricing-table-three.php:41, packaged/otterwp/inc/patterns/pricing-table-three.php:93, packaged/otterwp 2/inc/patterns/pricing-table-three.php:41, packaged/otterwp 2/inc/patterns/pricing-table-three.php:93
+msgid "Limited"
+msgstr ""
+
+#: inc/patterns/pricing-table-three.php:145, packaged/otterwp/inc/patterns/pricing-table-three.php:145, packaged/otterwp 2/inc/patterns/pricing-table-three.php:145
+msgid "Unlimited"
+msgstr ""
+
+#: inc/patterns/pricing-table-two.php:6, packaged/otterwp/inc/patterns/pricing-table-two.php:6, packaged/otterwp 2/inc/patterns/pricing-table-two.php:6
+msgid "Pricing Table Two"
+msgstr ""
+
+#: inc/patterns/query-default.php:6, packaged/otterwp/inc/patterns/query-default.php:6, packaged/otterwp 2/inc/patterns/query-default.php:6
+msgid "Default posts"
+msgstr ""
+
+#: inc/patterns/query-grid.php:6, packaged/otterwp/inc/patterns/query-grid.php:6, packaged/otterwp 2/inc/patterns/query-grid.php:6
+msgid "Grid of posts"
+msgstr ""
+
+#: inc/patterns/query-image-grid.php:6, packaged/otterwp/inc/patterns/query-image-grid.php:6, packaged/otterwp 2/inc/patterns/query-image-grid.php:6
+msgid "Grid of image posts"
+msgstr ""
+
+#: inc/patterns/query-irregular-grid.php:6, packaged/otterwp/inc/patterns/query-irregular-grid.php:6, packaged/otterwp 2/inc/patterns/query-irregular-grid.php:6
+msgid "Irregular grid of posts"
+msgstr ""
+
+#: inc/patterns/query-large-titles.php:6, packaged/otterwp/inc/patterns/query-large-titles.php:6, packaged/otterwp 2/inc/patterns/query-large-titles.php:6
+msgid "Large post titles"
+msgstr ""
+
+#: inc/patterns/query-simple-blog.php:6, packaged/otterwp/inc/patterns/query-simple-blog.php:6, packaged/otterwp 2/inc/patterns/query-simple-blog.php:6
+msgid "Simple blog posts"
+msgstr ""
+
+#: inc/patterns/query-text-grid.php:6, packaged/otterwp/inc/patterns/query-text-grid.php:6, packaged/otterwp 2/inc/patterns/query-text-grid.php:6
+msgid "Text-based grid of posts"
+msgstr ""
+
+#: inc/patterns/team-four.php:6, packaged/otterwp/inc/patterns/team-four.php:6, packaged/otterwp 2/inc/patterns/team-four.php:6
+msgid "Team Four"
+msgstr ""
+
+#: inc/patterns/team-four.php:14, packaged/otterwp/inc/patterns/team-four.php:14, packaged/otterwp 2/inc/patterns/team-four.php:14
+msgid "Team Members"
+msgstr ""
+
+#: inc/patterns/team-four.php:19, packaged/otterwp/inc/patterns/team-four.php:19, packaged/otterwp 2/inc/patterns/team-four.php:19
+msgid "Meet The Team"
+msgstr ""
+
+#: inc/patterns/team-four.php:31, packaged/otterwp/inc/patterns/team-four.php:31, packaged/otterwp 2/inc/patterns/team-four.php:31
+msgid "Designer"
+msgstr ""
+
+#: inc/patterns/team-four.php:35, packaged/otterwp/inc/patterns/team-four.php:35, packaged/otterwp 2/inc/patterns/team-four.php:35
+msgid "John Smith"
+msgstr ""
+
+#: inc/patterns/team-four.php:47, packaged/otterwp/inc/patterns/team-four.php:47, packaged/otterwp 2/inc/patterns/team-four.php:47
+msgid "Co-Founder"
+msgstr ""
+
+#: inc/patterns/team-four.php:51, packaged/otterwp/inc/patterns/team-four.php:51, packaged/otterwp 2/inc/patterns/team-four.php:51
+msgid "Brad Smith"
+msgstr ""
+
+#: inc/patterns/team-four.php:67, packaged/otterwp/inc/patterns/team-four.php:67, packaged/otterwp 2/inc/patterns/team-four.php:67
+msgid "Rose Smith"
+msgstr ""
+
+#: inc/patterns/team-one.php:6, packaged/otterwp/inc/patterns/team-one.php:6, packaged/otterwp 2/inc/patterns/team-one.php:6
+msgid "Team One"
+msgstr ""
+
+#: inc/patterns/team-three.php:6, packaged/otterwp/inc/patterns/team-three.php:6, packaged/otterwp 2/inc/patterns/team-three.php:6
+msgid "Team three"
+msgstr ""
+
+#: inc/patterns/team-two.php:6, packaged/otterwp/inc/patterns/team-two.php:6, packaged/otterwp 2/inc/patterns/team-two.php:6
+msgid "Team Two"
+msgstr ""
+
+#: inc/patterns/team-two.php:37, packaged/otterwp/inc/patterns/team-two.php:37, packaged/otterwp 2/inc/patterns/team-two.php:37
+msgid "Ratings"
+msgstr ""
+
+#: inc/patterns/team-two.php:57, packaged/otterwp/inc/patterns/team-two.php:57, packaged/otterwp 2/inc/patterns/team-two.php:57
+msgid "Friendly"
+msgstr ""
+
+#: inc/patterns/team-two.php:57, packaged/otterwp/inc/patterns/team-two.php:57, packaged/otterwp 2/inc/patterns/team-two.php:57
+msgid "Amazing Designs"
+msgstr ""
+
+#: inc/patterns/testimonial-one.php:6, packaged/otterwp/inc/patterns/testimonial-one.php:6, packaged/otterwp 2/inc/patterns/testimonial-one.php:6
+msgid "Testimonial One"
+msgstr ""
+
+#: inc/patterns/testimonial-three.php:6, packaged/otterwp/inc/patterns/testimonial-three.php:6, packaged/otterwp 2/inc/patterns/testimonial-three.php:6
+msgid "Testimonial Three"
+msgstr ""
+
+#: inc/patterns/testimonial-two.php:6, packaged/otterwp/inc/patterns/testimonial-two.php:6, packaged/otterwp 2/inc/patterns/testimonial-two.php:6
+msgid "Testimonial Two"
+msgstr ""
