@@ -1,0 +1,439 @@
+/*
+Theme Name: Otterwp plus (Premium)
+Author: Cyrus
+Author URI: https://otterwp.io/
+Description: Otterwp is a modern block-based theme that allows you to build your own distinctively designed website using the WordPress Blocks Editor. Otterwp is a free, multi-use block-based theme that adheres to the Full Site Editing features added in WordPress 5.9. As a result, you can alter every component of your site, including the colors, typography, and page layout, to meet your needs.
+Version: 1.0.16
+Requires at least: 6.1.1
+Tested up to: 6.1.1
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: otterwp
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Otterwp is based on Twenty Twenty-Three WordPress Theme, (C) 2022 WordPress.org
+Twenty Twenty-Three is distributed under the terms of the GNU GPL.
+
+*/
+
+/**
+ * We get values from WordPress core block css.
+ *
+ */
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	--wp--style--block-gap: 1.5rem;
+	color: var(--wp--preset--color--secondary);
+}
+
+/*
+ * Text and navigation link styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+	text-decoration-style: dashed;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .wp-block-search__button,
+.wp-block-file .wp-block-file__button, .wp-element-button{
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+	border-radius: 0;
+	border: none;
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+}
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+	opacity: 0.90;
+}
+
+/*
+ * Alignment styles.
+ * These rules are temporary, and should not be relied on or
+ * modified too heavily by themes or plugins that build on
+ * Twenty Twenty-Two. These are meant to be a precursor to
+ * a global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+ */
+
+.wp-site-blocks,
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-group.alignfull,
+.wp-block-group.has-background,
+.wp-block-cover.alignfull,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull,
+.wp-site-blocks .alignfull .blocks-gallery-grid,
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
+body > .is-root-container > .wp-block-cover,
+body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
+body > .is-root-container > .wp-block-template-part > .wp-block-cover,
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
+/* Blocks inside columns don't have negative margins. */
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+/* We also want to avoid stacking negative margins. */
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: inherit;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+
+.otterwp-ative{
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	overflow-y: scroll;
+	width: 100%;
+}
+.otterwp-ative.otw-bottom{
+	height: 0;
+}
+.alignleft {
+    float: left;
+    margin-inline-start: 0;
+    margin-inline-end: 2em;
+}
+
+.wp-container-14 > * + * {
+    margin-block-start: 0; 
+    margin-block-end: 0;
+}
+.is-style-image-zoom-hover {
+	overflow: hidden; }
+  
+  .is-style-image-zoom-hover img {
+	margin: 0;
+	-webkit-transition: -webkit-transform 1s ease;
+	-moz-transition: -moz-transform 1s ease;
+	transition: transform 1s ease;
+	vertical-align: middle;
+	width: 100%; }
+  
+  .is-style-image-zoom-hover:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transform-origin: center center;
+	-moz-transform-origin: center center;
+	-o-transform-origin: center center;
+	transform-origin: center center; }
+
+	.wp-block-navigation a:where(:not(.wp-element-button)) {
+		color: inherit !important;
+		text-decoration: none;
+	}
+	.wp-block-post-content a:where(:not(.wp-element-button)) {
+		color: var(--wp--preset--color--secondary);
+	}
+	.break {
+		flex-basis: 100%;
+		height: 0;
+	  }
+.woocommerce div.product form.cart .variations select {
+	color: var(--wp--preset--color--secondary);
+}
+.woocommerce-page .input-text{
+	color: var(--wp--preset--color--secondary);
+}
+.woocommerce .products ul, .woocommerce ul.products {
+    padding: 8px;
+}
+.otw-items-open .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+display: none;
+}
+.otw-items-open .wp-block-navigation__responsive-container-open{
+	display: flex;
+}
+.traffic-lights{
+	background-color: var(--wp--preset--color--base);
+}
+.otw-woocommerce-single.otw-top .otw-woocommerce-header.otw-swipe::before {
+    background-color: var(--wp--preset--color--base);
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--secondary);
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .wp-block-search__button,
+.wp-block-file .wp-block-file__button{
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--secondary);
+}
+button, input, optgroup, select, textarea{
+	color: var(--wp--preset--color--secondary);
+}
+.woocommerce span.onsale{
+	background-color: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+}
+.otw-woocommerce-header.otw-swipe::after{	
+    background-color: var(--wp--preset--color--secondary);
+}
+.otw-woocommerce-single .otterwp-content {
+	background-color: var(--wp--preset--color--base);
+}
+.otw-woocommerce-single.otw-top .otw-woocommerce-header{
+	background-color: var(--wp--preset--color--base);
+}
+.otw-woocommerce-header{
+	background-color: var(--wp--preset--color--base);
+}
+.otw-woo-review{
+	background-color: var(--wp--preset--color--base);
+}
+.otw-top .otw-woo-reviews.otw-woo-reviews-open{
+	background-color: var(--wp--preset--color--base);
+}
+.otw-woo-reviews__body{
+	background: var(--wp--preset--color--base);
+}
+.otterwp-loader-container{
+	background: var(--wp--preset--color--base);
+}
+.mobile-header .mobile-img{
+	background: var(--wp--preset--color--secondary);
+}
+.content .line{
+	background: var(--wp--preset--color--secondary);
+}
+.card .header .line{
+	background: var(--wp--preset--color--secondary);
+}
+.mobile-header .line{
+	background: var(--wp--preset--color--secondary);
+}
+.mobile-details .name, .mobile-details .about, .mobile-details .line,
+.card .header .name, .card .header .about, .card .btns .btn{
+	background: var(--wp--preset--color--secondary);
+}
+.otw-top .otw-woo-reviews__header::after {
+	background: var(--wp--preset--color--secondary);
+}
+.otw-search-container{
+	background: var(--wp--preset--color--base);
+}
+.search-hint{
+	border-color: var(--wp--preset--color--secondary);
+}
+.img{
+	background: var(--wp--preset--color--secondary);
+}
+.wc-block-components-drawer__screen-overlay--with-slide-in{
+	z-index: 9999;
+}
+.wc-block-components-drawer .components-modal__content{
+	z-index: 9999;
+}
+.otw-woo-reviews-close-btn{
+    stroke: var(--wp--preset--color--secondary);
+}
+.otw-search-close:before, .otw-search-close:after {
+    background-color: var(--wp--preset--color--secondary);
+}
+/* nav styles test*/
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
+    display: flex;
+    flex-direction: column;
+}
+.wp-block-navigation__responsive-close {
+    width: 100%;
+    max-width: var(--wp--style--global--wide-size,100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-block-navigation__responsive-container.is-menu-open {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    animation-fill-mode: forwards;
+    padding: 2rem 2rem 2rem 2rem;
+    overflow: auto;
+    z-index: 100000;
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
+    justify-content: flex-start;
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+    padding-top: calc(2rem + 24px);
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+    font-size: .9em;
+    gap: 15px;
+    position: relative;
+}
+.search-hint a:link{
+	color: var(--wp--preset--color--secondary);
+}
+.wp-element-button:visited, .wp-block-button__link:visited{
+	color: var(--wp--preset--color--base);
+}
+@media only screen and (max-width: 962px){
+	.wp-block-navigation.items-justified-right {
+		--navigation-layout-justification-setting: flex-start;
+		--navigation-layout-justify: flex-start;
+	}
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container:before {
+		content: "↑";
+		position: absolute;
+		left: 0;
+		top: 10px;
+	}
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+		font-size: .9em;
+		gap: 15px;
+		padding: 0 30px 24px 30px;
+		position: relative;
+	}
+	.wp-block-navigation :where(.wp-block-navigation__submenu-container)>.wp-block-navigation-item:first-child>.wp-block-navigation-item__content {
+		margin-top: 0.6em;
+	}
+	.wp-block-navigation__responsive-container.is-menu-open {
+		opacity: 1;
+		visibility: visible;
+		transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+		animation: menu-fade-in-animation .1s ease-out;
+	}
+	.wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+		transition: transform .4s all, opacity .4s all;
+		transform: translateY(-35px);
+		opacity: 0;
+		transition-delay: .2s;
+		font-size: 20px;
+		width: 100%;
+	}
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+		transform: translateY(0);
+		opacity: 1;
+		gap: 20px;
+		padding: 40px;
+	}
+
+
+}
+.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.otw-items-open .wp-block-navigation__responsive-container{
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+}
+.otw-items-open .wp-block-columns.is-not-stacked-on-mobile {
+    flex-wrap: nowrap!important;
+}
+.otw-items-open .wp-block-navigation.items-justified-right {
+	--navigation-layout-justification-setting: flex-start;
+	--navigation-layout-justify: flex-start;
+}
+.otw-items-open .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container:before {
+	content: "↑";
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.otw-items-open .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+	font-size: .9em;
+	gap: 15px;
+	padding: 0 30px 24px 30px;
+	position: relative;
+}
+.otw-items-open .wp-block-navigation :where(.wp-block-navigation__submenu-container)>.wp-block-navigation-item:first-child>.wp-block-navigation-item__content {
+	margin-top: 0.6em;
+}
+@keyframes menu-fade-in-animation {
+	0% {
+		opacity: 0;
+		transform: translateY(0.5em);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+  }
+  .focus{
+	border: solid 1px var(--wp--preset--color--primary) !important;
+   }
