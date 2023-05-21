@@ -1,0 +1,289 @@
+.dark .otterwp-loader-container{
+  background-color: #212121;
+}
+.otterwp-loader-container{
+    justify-content: center;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    display: none;
+    z-index: 9;
+    &.otter_is_loading{
+        display: flex;
+    }
+    &.otw-maximize{
+      width: 100vw;
+      left: 0;
+    }
+    @include for-phone-only {
+        width: 100%;
+        flex-direction: column;
+        .mobile-header{
+            display: flex;
+            width: 100%;
+            height: 70px;
+        }
+      }
+
+}
+.mobile-header{
+    display: none;
+    opacity: .5;
+    .mobile-img{
+        flex: 0 0 60px;
+        margin-right: 20px;
+        overflow: hidden;
+        display: block;
+        margin: auto;
+        position: relative;
+        width: 50vw;
+        height: 53vh;
+        max-height: 60px;
+        max-width: 60px;
+        border-radius: 10px;
+    }
+        .mobile-details{ 
+            grid-area: content-1;
+            text-align: start;
+            .name {
+                width: 143px;
+                height: 15px;
+                margin: 13px 15px;
+          }
+          .about{
+            width: 85px;
+            height: 15px;
+            margin: 13px 15px;
+          }
+          .details{
+            width: 150px;
+            height: 25px;
+            margin-top: 24px;
+          }
+          span {
+            position: relative;
+            display: block;
+            border-radius: 10px;
+            overflow: hidden;
+          }
+
+        }
+        .line{
+          position: relative;
+          width: 100px;
+          height: 31px;
+          margin: 13px 15px;
+          border-radius: 10px;
+          overflow: hidden;
+          top: 30px;
+        }
+    }
+  
+.card{
+    width: 100%;
+    opacity: .5;
+    max-width: 1040px;
+}
+.otw-maximize .card .header{
+  flex-direction: row;
+  @include for-phone-only {
+      flex-direction: column;
+  }
+}
+.card .header {
+    display: flex;
+    flex-direction: column;
+    .line {
+        position: relative;
+        width: 166px;
+        height: 18px;
+        margin: 10px 0;
+        border-radius: 10px;
+  
+        overflow: hidden;
+      }
+
+  }
+  
+.img {
+    position: relative;
+    width: 50vw;
+    height: 53vh;
+    max-height: 700px;
+    max-width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px auto;
+    @include for-phone-only {
+        width: calc(100% - 20px);
+        height: 35vh;
+      }
+  }
+  .otw-maximize .img{
+    height: 45vh;
+  }
+  .otw-maximize .header .details{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    .name {
+      width: 350px;
+      height: 70px;
+    }
+    .about {
+      width: 250px;
+      height: 45px;
+      margin-top: 24px;
+  }
+    .line {
+      width: 166px;
+      height: 28px;
+    }
+  }
+  .header .details {
+    width: 50vw;
+    max-height: 700px;
+    max-width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px auto;
+    @include for-phone-only {
+      width: auto;
+      margin: 0px 0px 0px 10px !important;
+    }
+  }
+  
+  .details span {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .details .name {
+    width: 320px;
+    height: 50px;
+    margin-top: 24px;
+  }
+  
+  .details .about {
+    width: 150px;
+    height: 25px;
+    margin-top: 24px;
+  }
+  .otw-maximize .card .content {
+    height: auto;
+    margin: 0;
+    max-width: 1030px;
+    width: 100%;
+    .line.line-3{
+      width: 100%;
+    }
+    .line {
+      width: 50%;
+  }
+  }
+  .card .content {
+    width: 50vw;
+    height: 53vh;
+    max-height: 700px;
+    max-width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px auto;
+    @include for-phone-only {
+      width: auto;
+      margin: 0px 0px 0px 10px;
+    }
+  }
+  
+  .content .line {
+    position: relative;
+    height: 33px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 24px 0;
+    width: calc(100% - 40%);
+  }
+  
+  .content .line.line-3 {
+    width: calc(100% - 20%);
+    height: 200px;
+  }
+  
+  .card .btns {
+    display: flex;
+  }
+  
+  .card .btns .btn {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 40px;
+  }
+  
+  .btns .btn-1 {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .btns .btn-2 {
+    margin-left: 8px;
+    width: 100px;
+  }
+  .content-Related{
+    display: flex;
+    .img{
+      width: 24%;
+    }
+  }
+  .card .header .img::before,
+  .mobile-details .name::before,
+  .mobile-details .about::before,
+  .mobile-img::before,
+  .line::before,
+  .details span::before,
+  .content .line::before,
+  .btns .btn::before,
+  .content-Related .img::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgba(217, 217, 217, .3) 0%,
+      rgba(136, 139, 148, .3) 20%,
+      rgba(217, 217, 217, .3) 40%,
+      rgba(217, 217, 217, .3) 100%
+    );
+    background-size: 750px 700px;
+    background-repeat: no-repeat;
+    animation: shimmer 1.8s linear infinite;
+  }
+  .mobile-details .name::before,
+  .mobile-details .about::before,
+  .details span::before,
+  .btns .btn-2::before {
+    animation-delay: 0.29s;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -750px 0px;
+    }
+    100% {
+      background-position: 750px 0px;
+    }
+  }
+  .is-comparying{
+    .otterwp-loader-container{
+      left: 50%;
+      justify-content: flex-start;
+    }
+    .otw-maximize .card .header {
+        flex-direction: column;
+  }
+  }

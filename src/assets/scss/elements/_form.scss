@@ -1,0 +1,44 @@
+
+@include for-phone-only {
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+        font-size: .9em;
+        gap: 15px;
+        padding: 0 30px 24px 30px;
+        position: relative;
+    }
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+        transform: translateY(0);
+        opacity: 1;
+        gap: 20px;
+        padding: 40px;
+    }
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
+        align-items: flex-start;
+    }
+  }
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
+    display: flex;
+    flex-direction: column;
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+        font-size: .9em;
+        gap: 15px;
+        padding: 0 30px 24px 30px;
+        position: relative;
+    }
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container {
+    right: auto;
+    left: auto;
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .submenu-container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    width: auto;
+    overflow: initial;
+    min-width: 200px;
+    position: static;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

@@ -1,0 +1,20 @@
+@import './settings/break-points';
+@import './tools/breakpoint';
+@import './components/block-styles.scss';
+@import './editor-styles/woocommerce-blocks.scss';
+
+.editor-styles-wrapper .is-style-button-shadow-outline .wp-block-button__link{
+    background-color: transparent;
+}
+
+.is-style-offset-left-top{
+    margin-left: -100px;
+    padding-top: 100px;
+ 
+}
+.wp-block-cover-image.has-background-dim:not([class*=-background-color]), .wp-block-cover-image .has-background-dim:not([class*=-background-color]), .wp-block-cover.has-background-dim:not([class*=-background-color]), .wp-block-cover .has-background-dim:not([class*=-background-color]) {
+    background-color: transparent;
+}
+.editor-styles-wrapper .is-style-button-shadow-outline .wp-block-button__link{
+    color: #000;
+}

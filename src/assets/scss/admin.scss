@@ -1,0 +1,222 @@
+/* ==========================================================================
+   Toggle Switch
+   ========================================================================== */
+   .switch {
+	display: none !important;
+	height: 33px;
+	position: relative;
+	width: 60px;
+  }
+  .switch input {
+	display:none;
+  }
+  
+  .slider {
+	background-color: #ccc;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #66bb6a;
+  }
+  
+  input:checked + .slider:before {
+	transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+    display: block;
+    width: 53px;
+    height: 27px;
+    position: relative;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }
+  /* ==========================================================================
+   ace css
+   ========================================================================== */
+  #customCss { position: relative; width: 500px; height: 400px; }
+
+
+  .ace-monokai{
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+/* ==========================================================================
+   Settings form
+   ========================================================================== */
+.otterwp-general-form{
+    max-width: 1000px;
+    margin: auto;
+}
+.otterwp-general-form h2{
+    display: none;
+}
+.otterwp-general-form .form-table{
+    position: absolute;
+    display: none;
+}
+.otterwp-general-form p.submit {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+.settings-area{
+    max-height: 860px;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 14px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid rgba(113, 119, 144, 0.25);
+    box-shadow: 0 1px 12px 1px rgba(0,0,0, 0.26);
+}
+.main-header{
+    background: #000;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(113, 119, 144, 0.25);
+    height: 58px;
+    flex-shrink: 0;
+}
+.header-menu{
+    margin: auto;
+}
+.header-menu a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    margin: 0 5px;
+}
+.header-menu a.is-active, .header-menu a:hover {
+    color: #662eed;
+    border-bottom: 2px solid #662eed;
+}
+.otterwp-general-form  > .form-table {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: fit-content;
+}
+
+.otterwp-general-form  > .form-table ~ .form-table {
+    display: none;
+}
+.otterwp-general-form  > .form-table.is-active{
+    display: block;
+}
+.appearance_page_test-theme-options #wpbody-content{
+    padding-bottom: 0;
+}
+.appearance_page_test-theme-options #wpcontent{
+    padding-left: 0;
+}
+.main-container{
+    height: calc(100vh - 32px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+  .appearance_page_test-theme-options .form-table th{
+    color: #000;
+  }
+  .appearance_page_test-theme-options .form-table td{
+    padding: 0;
+  }
+  .appearance_page_test-theme-options tbody{
+    margin: auto;
+    position: relative;
+    display: block;
+    width: 500px;
+    margin-top: 20px;
+  }
+  .appearance_page_test-theme-options .otterwp-general-form p.submit input{
+  background-color: #662eed;
+  border: none;
+  padding: 8px 26px;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap;
+  }
+  .appearance_page_test-theme-options .otterwp-general-form p.submit input:hover{
+    opacity: .7;
+  }
+.otterwp-general-form h3{
+  margin: 0;
+}
+.otterwp-supper-page{
+    max-height: 100%;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    position: relative;
+}
+.otterwp-container{
+    margin: 45px auto 0 auto;
+}
+.otterwp-button.button{
+    background-color: #662eed;
+    border: none;
+    padding: 8px 26px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+.otterwp-container h3{
+    margin: 1em 0;
+    font-size: 40px;
+}
+.otterwp-button.button:hover{
+    background-color: #5B33DE;
+    color: #fff;
+    opacity: .7;
+}
+.wrap .add-new-h2, .wrap .add-new-h2:active,.page-title-action, .wrap .page-title-action:active {
+  margin-left: 4px;
+  padding: 4px 8px;
+  position: relative;
+  top: -3px;
+  text-decoration: none;
+  border: 1px solid #2271b1;
+  border-radius: 2px;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: #2271b1;
+  background: #f6f7f7;
+  cursor: pointer;
+}

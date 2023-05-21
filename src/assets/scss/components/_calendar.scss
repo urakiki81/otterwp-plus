@@ -1,0 +1,61 @@
+// calendar css
+.calendar_wrap{
+    width: 100%;
+}
+.widget_calendar{
+    padding: 0 0 10px 0;
+}
+.wp-calendar-table{
+    --border-radius: 34px; // border-radius of the main calendar shell
+    width: 100%;
+    margin-bottom: 0;
+    tbody{
+        background-color: #eaedf2; 
+        width: 100%;
+        border-radius: 34px;
+    }
+} 
+.wp-calendar-nav{
+    height: 75px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+        .wp-calendar-nav-prev a{
+        background-color: #1752ff;
+
+        &:hover {
+            box-shadow: 0 20px 30px -13px rgba(23, 82, 255, 0.45);
+            transform: translateY(-3px);
+        }
+      }
+        span{
+            display: block;
+            transform: translateY(20px);
+            a{
+                color: #fff;
+                transition: box-shadow 0.3s cubic-bezier(0.21, 0.68, 0.09, 0.27), transform 0.2s linear;
+                font-family: inherit;
+                font-weight: 700;
+                font-size: 1.02rem;
+                border-radius: 20px;
+                outline: none;
+                border: 0;
+                padding: 15px 30px;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                right: 0;
+                bottom: 0;
+                position: relative;
+            }
+        }
+        .wp-calendar-nav-next a{
+            background-color: #1752ff;
+
+            &:hover {
+                box-shadow: 0 20px 30px -13px rgba(23, 82, 255, 0.45);
+                transform: translateY(-3px);
+            }
+        }
+}
