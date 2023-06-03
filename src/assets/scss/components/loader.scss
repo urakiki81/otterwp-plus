@@ -84,6 +84,8 @@
     width: 100%;
     opacity: .5;
     max-width: 1040px;
+    top: 30px;
+    position: relative;
 }
 .otw-maximize .card .header{
   flex-direction: row;
@@ -100,15 +102,17 @@
         height: 18px;
         margin: 10px 0;
         border-radius: 10px;
-  
         overflow: hidden;
       }
 
   }
-  
+  .is-comparying .img{
+    width: 50%;
+  }
+
 .img {
     position: relative;
-    width: 50vw;
+    width: 100%;
     height: 53vh;
     max-height: 700px;
     max-width: 700px;
@@ -121,7 +125,7 @@
       }
   }
   .otw-maximize .img{
-    height: 45vh;
+    height: 39vh;
   }
   .otw-maximize .header .details{
     display: flex;

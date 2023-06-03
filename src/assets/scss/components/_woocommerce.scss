@@ -67,6 +67,9 @@ html, body{
     border: 1px solid rgba(255, 255, 255, 0.2);
     width: calc(100% - 2px);
 }
+.is-comparying .otw-woocommerce-single .otterwp-content .entry-content .product .woocommerce-product-gallery {
+width: 50%;
+}
 .otw-woocommerce-single {
     width: 100%;
     display: grid;
@@ -437,7 +440,7 @@ html, body{
                 max-width: 840px;
                 margin: auto;
                 .product .woocommerce-product-gallery{
-                    width: 90%;
+                    width: 100%;
                     margin: 13px auto 0 auto;
                     float: none;
                     display: block;
